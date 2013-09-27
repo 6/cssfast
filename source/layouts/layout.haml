@@ -5,10 +5,12 @@
 %html
   <!--<![endif]-->
   %head
+    %title= current_page.data.title || "CSSfast"
     %meta{charset: "utf-8"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
     %meta{content: "IE=edge,chrome=1", 'http-equiv' => "X-UA-Compatible"}
-    %title= current_page.data.title || "The Middleman"
+    %meta{name: "description", content: ""}
+    %meta{name: "keywords", content: "CSS,HTML,DOM,tutorial,programming,development,reference,examples,source code,browser compatibility,demos,tips,internet explorer,chrome,firefox,safari,SASS,SCSS,LESS,mixins"}
 
     = stylesheet_link_tag "application"
     = javascript_include_tag "application"
