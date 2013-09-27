@@ -56,6 +56,7 @@ activate :i18n, :mount_at_root => :en
 configure :build do
   activate :minify_css
   activate :minify_javascript
+  activate :minify_html
 end
 
 activate :deploy do |deploy|
