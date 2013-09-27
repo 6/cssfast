@@ -51,6 +51,7 @@ set :images_dir, 'images'
 
 activate :asset_hash
 activate :directory_indexes
+activate :i18n, :mount_at_root => :en
 
 configure :build do
   activate :minify_css
