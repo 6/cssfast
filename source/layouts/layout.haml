@@ -20,6 +20,10 @@
     = javascript_include_tag "application"
 
   %body{class: page_classes}
+    %h1= t(:site_name)
+    .search-form
+      %input{name: 'search', type: 'text', placeholder: 'Enter search terms', autocomplete: 'off', spellcheck: 'false'}
+
     = yield
 
     :javascript
