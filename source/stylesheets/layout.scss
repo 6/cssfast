@@ -20,6 +20,25 @@ h1 {
   }
 }
 
+input[name=search] {
+  font-size: 16px;
+  height: 36px;
+  padding: 0 8px;
+  width: 220px;
+  border: 1px solid $light-gray;
+  border-radius: 4px;
+  &:hover, &:focus {
+    @include active-inset-shadow;
+  }
+  &:hover {
+    border-color: $gray;
+  }
+  &:focus {
+    outline: none;
+    border-color: $lighter-blue;
+  }
+}
+
 .results {
   .highlight {
     color: black;
