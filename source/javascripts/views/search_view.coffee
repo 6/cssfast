@@ -5,7 +5,6 @@ class @SearchView extends Backbone.View
     "keydown [name=search]": "onKeyDown"
     "keyup [name=search]": "onKeyUp"
     "focus [name=search]": "renderResults"
-    "blur [name=search]": "blur"
 
   initialize: =>
     @$input = @$el.find("[name=search]")
@@ -47,11 +46,6 @@ class @SearchView extends Backbone.View
   focus: =>
     @$input.focus()
     @renderResults()
-
-  blur: =>
-    setTimeout( =>
-      @resetResults()
-    , 100)
 
   val: =>
     trimmedVal = $.trim(@$input.val())
