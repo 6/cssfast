@@ -26,7 +26,8 @@ h1 {
     font-weight: bold;
   }
   .result {
-    cursor: pointer;
+    display: block;
+    color: #444;
     &:hover {
       background: #eee;
     }

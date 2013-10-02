@@ -6,7 +6,6 @@ class @SearchView extends Backbone.View
     "keyup [name=search]": "onKeyUp"
     "focus [name=search]": "renderResults"
     "blur [name=search]": "resetResults"
-    "click .result": "goToClicked"
 
   initialize: =>
     @$input = @$el.find("[name=search]")
@@ -42,9 +41,6 @@ class @SearchView extends Backbone.View
   goToSelected: =>
     console.log("TODO - go to selection")
 
-  goToClicked: (e) =>
-    @goTo($(e.currentTarget).data('property'))
-
   goTo: (property) =>
     window.location = "/#{property}/"
 
@@ -69,7 +65,7 @@ class @SearchView extends Backbone.View
     matches = fuzzyMatch(terms, @val())
     if matches.length > 0
       for match in matches
-        $("<li class='result' data-property='#{match.match}'/>")
+        $("<a class='result' href='/#{match.match}/'/>")
           .html(match.highlighted).appendTo(@$results)
     else
       @$results.text("No results")
