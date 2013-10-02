@@ -23,6 +23,7 @@
     %h1= t(:site_name)
     .search-form
       %input{name: 'search', type: 'text', placeholder: 'Enter search terms', autocomplete: 'off', spellcheck: 'false'}
+      %ul.results
 
     = yield
 

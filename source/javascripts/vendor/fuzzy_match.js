@@ -1,3 +1,4 @@
+(function() {
 // Source: http://jsfiddle.net/bulat/CCryL/
 function fuzzyMatch(searchSet, query) {
   var tokens = query.toLowerCase().split(''),
@@ -29,3 +30,11 @@ function fuzzyMatch(searchSet, query) {
   });
   return matches;
 }
+
+function highlight(string) {
+  return '<span class="highlight">' + string + '</span>';
+}
+
+// Expose globally
+this.fuzzyMatch = fuzzyMatch;
+}).call(this);
