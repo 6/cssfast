@@ -1,3 +1,0 @@
-[submodule "vendor/caniuse"]
-	path = vendor/caniuse
-	url = git@github.com:Fyrd/caniuse.git
