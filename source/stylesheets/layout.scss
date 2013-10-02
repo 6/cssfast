@@ -2,7 +2,7 @@
 
 body {
   background: white;
-  color: #333;
+  color: $very-dark-gray;
   font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,Helvetica,sans-serif;
 }
 
@@ -12,11 +12,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: #bbb;
+  color: $gray;
   font-weight: bold;
   font-size: 36px;
   .site-name-fast {
-    color: #888;
+    color: $dark-gray;
   }
 }
 
@@ -46,10 +46,10 @@ input[name=search] {
   }
   .result {
     display: block;
-    color: #444;
+    color: $very-dark-gray;
     text-decoration: none;
     &:hover {
-      background: #eee;
+      background: $light-gray;
     }
   }
 }
