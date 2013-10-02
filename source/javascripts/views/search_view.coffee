@@ -4,12 +4,14 @@ class @SearchView extends Backbone.View
   events:
     "keydown [name=search]": "onKeyDown"
     "keyup [name=search]": "onKeyUp"
+    "focus [name=search]": "renderResults"
+    "blur [name=search]": "resetResults"
     "click .result": "goToClicked"
 
   initialize: =>
-    @$searchInput = @$el.find("[name=search]")
-    @$searchInput.focus()
+    @$input = @$el.find("[name=search]")
     @$results = @$el.find(".results")
+    @focus()
 
   onKeyDown: (e) =>
     # Prevent cursor from moving to beginning/end on arrow up/down
@@ -18,10 +20,18 @@ class @SearchView extends Backbone.View
 
   onKeyUp: (e) =>
     switch e.keyCode
+      when KeyCode.ESCAPE then @handleEscape()
       when KeyCode.DOWN then @moveDown(e)
       when KeyCode.UP then @moveUp(e)
       when KeyCode.ENTER then @goToSelected()
       else @renderResults()
+
+  handleEscape: =>
+    if @val()?
+      @$input.val("")
+      @resetResults()
+    else
+      @$input.blur()
 
   moveUp: =>
     console.log("TODO - move up")
@@ -38,14 +48,25 @@ class @SearchView extends Backbone.View
   goTo: (property) =>
     window.location = "/#{property}/"
 
-  renderResults: =>
+  focus: =>
+    @$input.focus()
+    @renderResults()
+
+  val: =>
+    trimmedVal = $.trim(@$input.val())
+    if trimmedVal == "" then null else trimmedVal
+
+  resetResults: =>
     @$results.html("")
+
+  renderResults: =>
+    @resetResults()
 
     # TODO - this is a temporary test, store these somewhere else
     terms = ["box-sizing", "box-shadow", "border-radius", "text-shadow", "border-width", "border-left", "border"]
 
-    query = $.trim(@$searchInput.val())
-    matches = fuzzyMatch(terms, query)
+    return unless @val()?
+    matches = fuzzyMatch(terms, @val())
     if matches.length > 0
       for match in matches
         $("<li class='result' data-property='#{match.match}'/>")

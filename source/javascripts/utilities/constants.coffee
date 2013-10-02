@@ -1,3 +1,10 @@
+@UserInputtableNodes = [
+  "INPUT"
+  "OPTION"
+  "SELECT"
+  "TEXTAREA"
+]
+
 @KeyCode =
   BACKSPACE: 8
   COMMA: 188
@@ -14,3 +21,5 @@
   SPACE: 32
   TAB: 9
   UP: 38
+  FORWARD_SLASH: 191
+  BACK_SLASH: 220

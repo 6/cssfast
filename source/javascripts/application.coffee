@@ -4,4 +4,5 @@
 #= require_self
 
 $ ->
-  new SearchView()
+  window.searchView = new SearchView()
+  new KeyboardShortcutsView()
