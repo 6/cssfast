@@ -13,6 +13,7 @@
     %meta{name: "keywords", content: "CSS,HTML,DOM,tutorial,programming,development,reference,examples,source code,browser compatibility,demos,tips,internet explorer,chrome,firefox,safari,SASS,SCSS,LESS,mixins"}
     %meta{property: "og:site_name", content: t(:site_name)}
 
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Lato:700"
     = stylesheet_link_tag "application"
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
     :javascript
@@ -20,7 +21,7 @@
     = javascript_include_tag "application"
 
   %body{class: page_classes}
-    %h1= t(:site_name)
+    %h1= t(:site_name_html)
     .search-form
       %input{name: 'search', type: 'text', placeholder: 'Enter search terms', tabindex: "1", autocomplete: 'off', spellcheck: 'false'}
       %ul.results
