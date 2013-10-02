@@ -22,7 +22,7 @@
   %body{class: page_classes}
     %h1= t(:site_name)
     .search-form
-      %input{name: 'search', type: 'text', placeholder: 'Enter search terms', autocomplete: 'off', spellcheck: 'false'}
+      %input{name: 'search', type: 'text', placeholder: 'Enter search terms', tabindex: "1", autocomplete: 'off', spellcheck: 'false'}
       %ul.results
 
     = yield
