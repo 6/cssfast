@@ -1,0 +1,11 @@
+{
+  "name": "CSSfast",
+  "title": "CSSfast",
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "coffee-script": "~1.6.3"
+  }
+}
