@@ -10,7 +10,7 @@ module.exports = (grunt) ->
     for property,prefixes of JSON.parse(grunt.file.read('css-properties/css-prefixes.json'))
       properties.push(property)
     propertiesJS = wrapJS("window.cssProperties = #{JSON.stringify(properties)};")
-    fs.writeFileSync('source/build/properties.js', propertiesJS, 'utf-8', {flags: 'w+'})
+    fs.writeFileSync('source/javascripts/build/properties.js', propertiesJS, 'utf-8', {flags: 'w+'})
 
   grunt.registerTask('default', ['cssProperties'])
 
