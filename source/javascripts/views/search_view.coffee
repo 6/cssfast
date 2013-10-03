@@ -5,6 +5,7 @@ class @SearchView extends Backbone.View
     "keydown [name=search]": "onKeyDown"
     "keyup [name=search]": "onKeyUp"
     "focus [name=search]": "renderResults"
+    "mouseover .results a": "highlightMouseover"
 
   initialize: =>
     @$input = @$el.find("[name=search]")
@@ -51,8 +52,17 @@ class @SearchView extends Backbone.View
     @highlightSelected()
 
   highlightSelected: =>
-    @$results().removeClass("active")
+    @unhighlightResults()
     @$selectedResult()?.addClass("active")
+
+  highlightMouseover: (e) =>
+    @unhighlightResults()
+    $selected = $(e.currentTarget)
+    $selected.addClass("active")
+    @selectedIndex = $selected.index() + 1
+
+  unhighlightResults: =>
+    @$results().removeClass("active")
 
   goToSelected: =>
     $selected = @$selectedResult()
