@@ -1,3 +1,6 @@
 [submodule "caniuse"]
 	path = caniuse
 	url = git@github.com:Fyrd/caniuse.git
+[submodule "css-properties"]
+	path = css-properties
+	url = git@github.com:tonyganch/css-properties.git
