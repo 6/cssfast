@@ -8,7 +8,8 @@ class @SearchView extends Backbone.View
 
   initialize: =>
     @$input = @$el.find("[name=search]")
-    @$results = @$el.find(".results")
+    @$resultsContainer = @$el.find(".results")
+    @resetResults()
     @focus()
 
   onKeyDown: (e) =>
@@ -32,16 +33,33 @@ class @SearchView extends Backbone.View
       @$input.blur()
 
   moveUp: =>
-    console.log("TODO - move up")
+    $selected = @$selectedResult()
+    return unless $selected
+
+    if $selected.is(":first-child")
+      @selectedIndex = null
+    else
+      @selectedIndex -= 1
+    @highlightSelected()
 
   moveDown: =>
-    console.log("TODO - move down")
+    $selected = @$selectedResult()
+    if $selected
+      @selectedIndex += 1 unless $selected.is(":last-child")
+    else
+      @selectedIndex = 1
+    @highlightSelected()
+
+  highlightSelected: =>
+    @$results().removeClass("active")
+    @$selectedResult()?.addClass("active")
 
   goToSelected: =>
-    console.log("TODO - go to selection")
+    $selected = @$selectedResult()
+    @goTo($selected.attr("href")) if $selected
 
   goTo: (property) =>
-    window.location = "/#{property}/"
+    window.location.pathname = property
 
   focus: =>
     @$input.focus()
@@ -52,7 +70,8 @@ class @SearchView extends Backbone.View
     if trimmedVal == "" then null else trimmedVal
 
   resetResults: =>
-    @$results.html("")
+    @selectedIndex = null
+    @$resultsContainer.html("")
 
   renderResults: =>
     @resetResults()
@@ -65,6 +84,14 @@ class @SearchView extends Backbone.View
     if matches.length > 0
       for match in matches
         $("<a class='result' href='/#{match.match}/'/>")
-          .html(match.highlighted).appendTo(@$results)
+          .html(match.highlighted).appendTo(@$resultsContainer)
     else
-      @$results.text("No results")
+      @$resultsContainer.text("No results")
+
+  $results: =>
+    @$resultsContainer.find("a")
+
+  $selectedResult: =>
+    return unless @selectedIndex
+    $selected = @$results().filter(":nth-child(#{@selectedIndex})")
+    if $selected.length > 0 then $selected else null

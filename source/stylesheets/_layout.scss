@@ -46,7 +46,7 @@ input[name=search] {
     display: block;
     color: $very-dark-gray;
     text-decoration: none;
-    &:hover {
+    &.active, &:hover {
       background: $light-gray;
     }
   }
