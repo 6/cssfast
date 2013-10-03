@@ -85,12 +85,8 @@ class @SearchView extends Backbone.View
 
   renderResults: =>
     @resetResults()
-
-    # TODO - this is a temporary test, store these somewhere else
-    terms = ["box-sizing", "box-shadow", "border-radius", "text-shadow", "border-width", "border-left", "border"]
-
     return unless @val()?
-    matches = fuzzyMatch(terms, @val())
+    matches = fuzzyMatch(window.cssProperties, @val())
     if matches.length > 0
       for match in matches
         $("<a class='result' href='/#{match.match}/'/>")
