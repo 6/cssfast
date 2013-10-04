@@ -28,7 +28,18 @@ function fuzzyMatch(searchSet, query) {
       stringIndex++;
     }
   });
-  return matches;
+  return sortMatches(matches);
+}
+
+// Sort matches in ascending order of average match positions. This means that
+// for "box", "box-shadow" will come before "background-origin-x".
+function sortMatches(matches) {
+  return _.sortBy(matches, function(match) {
+    var sum = _.reduce(match.positions, function(a, b) {
+      return a + b;
+    });
+    return sum / match.positions.length;
+  });
 }
 
 function highlight(string) {
