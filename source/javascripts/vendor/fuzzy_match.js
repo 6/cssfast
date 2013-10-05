@@ -31,15 +31,16 @@ function fuzzyMatch(searchSet, query) {
   return sortMatches(matches);
 }
 
-// Sort matches in ascending order of average match positions. This means that
-// for "box", "box-shadow" will come before "background-origin-x".
+// Sort by match position range (ascending) first, then by average match position (ascending).
 function sortMatches(matches) {
-  return _.sortBy(matches, function(match) {
+  return _(matches).chain().sortBy(function(match) {
+    return _.max(match.positions) - _.min(match.positions);
+  }).sortBy(function(match) {
     var sum = _.reduce(match.positions, function(a, b) {
       return a + b;
     });
     return sum / match.positions.length;
-  });
+  }).value();
 }
 
 function highlight(string) {
