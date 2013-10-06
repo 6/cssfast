@@ -54,15 +54,21 @@ input[name=search] {
 }
 
 .results {
+  margin: 8px -1*$nav-padding-x 0;
+  border-top: 1px solid darken($light-gray, 5%);
   .highlight {
     color: black;
     font-weight: bold;
   }
   .result {
+    padding: 4px $nav-padding-x;
     display: block;
+    border-top: 1px solid lighten($very-light-gray, 5%);
+    border-bottom: 1px solid darken($light-gray, 5%);
     color: $very-dark-gray;
     text-decoration: none;
     &.active {
+      border-top: 1px solid lighten($light-gray, 5%);
       background: $light-gray;
     }
   }
