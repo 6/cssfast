@@ -1,5 +1,8 @@
+$nav-width: 260px;
+$nav-padding-x: 20px;
+
 body {
-  background: white;
+  background: $very-light-gray;
   color: $very-dark-gray;
   font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,Helvetica,sans-serif;
 }
@@ -9,10 +12,23 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Lato, sans-serif;
 }
 
+.nav {
+  float: left;
+  width: $nav-width - ($nav-padding-x * 2);
+  padding: 0 $nav-padding-x;
+}
+
+.content {
+  margin-left: $nav-width;
+  background-color: white;
+  height: 1000px; // temporary
+}
+
 h1 {
   color: $gray;
   font-weight: bold;
   font-size: 36px;
+  margin: 12px 0;
   .site-name-fast {
     color: $dark-gray;
   }
@@ -22,7 +38,7 @@ input[name=search] {
   font-size: 16px;
   height: 36px;
   padding: 0 8px;
-  width: 220px;
+  width: $nav-width - ($nav-padding-x * 2) - 16px;
   border: 1px solid $light-gray;
   border-radius: 4px;
   &:hover, &:focus {
