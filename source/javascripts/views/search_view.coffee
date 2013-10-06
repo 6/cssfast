@@ -35,20 +35,18 @@ class @SearchView extends Backbone.View
 
   moveUp: =>
     $selected = @$selectedResult()
-    return unless $selected
-
-    if $selected.is(":first-child")
-      @selectedIndex = null
+    if !$selected? || $selected.is(":first-child")
+      @selectedIndex = @$results().filter(":last-child").index() + 1
     else
       @selectedIndex -= 1
     @highlightSelected()
 
   moveDown: =>
     $selected = @$selectedResult()
-    if $selected
-      @selectedIndex += 1 unless $selected.is(":last-child")
-    else
+    if !$selected? || $selected.is(":last-child")
       @selectedIndex = 1
+    else
+      @selectedIndex += 1
     @highlightSelected()
 
   highlightSelected: =>
