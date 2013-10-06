@@ -60,6 +60,10 @@ input[name=search] {
     color: black;
     font-weight: bold;
   }
+  .no-results {
+    margin: 0;
+    padding: 8px $nav-padding-x;
+  }
   .result {
     padding: 4px $nav-padding-x;
     display: block;

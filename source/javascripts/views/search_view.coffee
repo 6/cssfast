@@ -92,7 +92,7 @@ class @SearchView extends Backbone.View
         $("<a class='result' href='/#{match.match}/'/>")
           .html(match.highlighted).appendTo(@$resultsContainer)
     else
-      @$resultsContainer.text("No results")
+      @$resultsContainer.html("<p class='no-results'>No results</p>")
 
   $results: =>
     @$resultsContainer.find("a")
