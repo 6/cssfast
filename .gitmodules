@@ -4,3 +4,6 @@
 [submodule "css-properties"]
 	path = css-properties
 	url = git@github.com:tonyganch/css-properties.git
+[submodule "hacktionary"]
+	path = hacktionary
+	url = git@github.com:brianloveswords/hacktionary.git
