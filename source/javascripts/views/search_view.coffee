@@ -75,7 +75,7 @@ class @SearchView extends Backbone.View
 
   val: =>
     trimmedVal = $.trim(@$input.val())
-    if trimmedVal == "" then null else trimmedVal
+    if trimmedVal == "" then null else trimmedVal.replace(VendorPrefixRegex, "")
 
   resetResults: =>
     @selectedIndex = null

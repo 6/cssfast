@@ -5,6 +5,16 @@
   "TEXTAREA"
 ]
 
+@VendorPrefixes = [
+  'khtml'
+  'moz'
+  'ms'
+  'o'
+  'webkit'
+]
+
+@VendorPrefixRegex = new RegExp("\-(#{@VendorPrefixes.join('|')})\-")
+
 @KeyCode =
   BACKSPACE: 8
   COMMA: 188
