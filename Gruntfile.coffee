@@ -1,4 +1,5 @@
 fs = require('fs')
+glob = require('glob')
 
 module.exports = (grunt) ->
   # Add a top-level safety wrapper around JS to prevent context/scope leakage
@@ -18,7 +19,6 @@ module.exports = (grunt) ->
     propertiesJS = wrapJS("window.cssProperties = #{JSON.stringify(properties)};")
     fs.writeFileSync('source/javascripts/build/properties.js', propertiesJS, 'utf-8', {flags: 'w+'})
 
-
   grunt.registerTask 'cssPropertiesHTML', ->
     descriptions = cssDescriptions()
     for property,prefixes of cssProperties()
@@ -32,7 +32,11 @@ module.exports = (grunt) ->
       """
       fs.writeFileSync("source/#{property}.erb", html, 'utf-8', {flags: 'w+'})
 
-  grunt.registerTask('default', ['cssPropertiesJS'])
+  grunt.registerTask 'removeGeneratedHTML', ->
+    for path in glob.sync('source/*.erb')
+      fs.unlinkSync(path)
+
+  grunt.registerTask('default', ['removeGeneratedHTML', 'cssPropertiesJS', 'cssPropertiesHTML'])
 
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json')
