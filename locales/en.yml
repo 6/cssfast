@@ -1,3 +1,4 @@
 en:
   site_name: "CSSfast"
   site_name_html: "<span class='site-name-css'>css</span><span class='site-name-fast'>fast</span>"
+  site_description: "CSSfast"
