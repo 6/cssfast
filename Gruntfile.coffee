@@ -12,8 +12,9 @@ module.exports = (grunt) ->
     String(str).replace /\-([a-z])/g, (match, submatch) ->
       submatch.toUpperCase()
 
-  removeAnchorTags = (str) ->
-    String(str).replace /<a\b[^>]*>(.*?)<\/a>/ig, (match, submatch) ->
+  removeHtmlTags = (tag, str) ->
+    pattern = new RegExp("<#{tag}\\b[^>]*>(.*?)<\\/#{tag}>", "ig")
+    String(str).replace pattern, (match, submatch) ->
       submatch
 
   createOrMergeData = (property, data) ->
@@ -58,12 +59,14 @@ module.exports = (grunt) ->
   grunt.registerTask 'bootstrapCssData', ->
     descriptions = cssDescriptions()
     for property,prefixes of cssProperties()
-      description = ""
-      if descriptions[property]
-        description = removeAnchorTags(descriptions[property])
+      description = descriptions[property] || ""
+      description_html = removeHtmlTags('a', description)
+      # MDN descriptions only have <a> and <code> tags
+      description_plain = removeHtmlTags('code', description_html).replace(/\n/g, "")
       createOrMergeData(property, {
         name: property
-        description: description
+        description_plain: description_plain
+        description_html: description_html
         javascript_property_name: camelize(property)
       })
 
