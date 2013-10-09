@@ -6,14 +6,19 @@
 ]
 
 @VendorPrefixes = [
-  'khtml'
-  'moz'
-  'ms'
-  'o'
-  'webkit'
+  'apple' # Alias for WebKit-based browsers
+  'atsc' # Advanced Television Standards Committee
+  'epub' # EPUB Working Group
+  'khtml' # Konqueror browser
+  'moz' # Gecko-based browsers
+  'ms' # Microsoft
+  'o' # Opera
+  'wap' # Wireless Application Protocol Forum
+  'webkit' # WebKit-based browsers
+  'xv' # Opera
 ]
 
-@VendorPrefixRegex = new RegExp("\-(#{@VendorPrefixes.join('|')})\-")
+@VendorPrefixRegex = new RegExp("\-?(#{@VendorPrefixes.join('|')})\-")
 
 @KeyCode =
   BACKSPACE: 8
