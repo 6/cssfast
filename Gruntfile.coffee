@@ -52,7 +52,7 @@ module.exports = (grunt) ->
       # TODO - extract this into an external template file
       html = """
       ---
-      title: #{property}
+      title: CSS #{property} property
       description: #{data.description_plain}
       ---
       <h1 class='property-title'>#{property}</h1>
