@@ -45,15 +45,18 @@ module.exports = (grunt) ->
     fs.writeFileSync('source/javascripts/build/properties.js', propertiesJS, 'utf-8', {flags: 'w+'})
 
   grunt.registerTask 'cssPropertiesHTML', ->
-    descriptions = vendorCssDescriptions()
-    for property,prefixes of vendorCssProperties()
-      continue unless descriptions[property]?
+    # TODO - encapsulate CSS property data in a class
+    for property,data of cssData()
+      description = if data.description_html != '' then data.description_html else data.description_plain
+
+      # TODO - extract this into an external template file
       html = """
       ---
       title: #{property}
+      description: #{data.description_plain}
       ---
       <h1 class='property-title'>#{property}</h1>
-      <p class='property-description'>#{descriptions[property]}</p>
+      <p class='property-description'>#{description}</p>
       """
       fs.writeFileSync("source/#{property}.erb", html, 'utf-8', {flags: 'w+'})
 
