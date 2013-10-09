@@ -32,10 +32,15 @@ module.exports = (grunt) ->
   vendorCssDescriptions = ->
     JSON.parse(grunt.file.read('hacktionary/css-properties.json'))
 
+  cssData = ->
+    data = {}
+    for filePath in glob.sync('data/*.yml')
+      propertyData = yaml.load(grunt.file.read(filePath))
+      data[propertyData.name] = propertyData
+    data
+
   grunt.registerTask 'cssPropertiesJS', ->
-    properties = []
-    for property,prefixes of vendorCssProperties()
-      properties.push(property)
+    properties = Object.keys(cssData()).sort()
     propertiesJS = wrapJS("window.cssProperties = #{JSON.stringify(properties)};")
     fs.writeFileSync('source/javascripts/build/properties.js', propertiesJS, 'utf-8', {flags: 'w+'})
 
