@@ -1,3 +1,4 @@
 name: "column-rule-color"
-description: "The<code> column-rule-color </code>CSS property lets you set the color of the rule drawn between columns in multi-column layouts."
+description_plain: "The column-rule-color CSS property lets you set the color of the rule drawn between columns in multi-column layouts."
+description_html: "The<code> column-rule-color </code>CSS property lets you set the color of the rule drawn between columns in multi-column layouts."
 javascript_property_name: columnRuleColor

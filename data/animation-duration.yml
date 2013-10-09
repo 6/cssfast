@@ -1,3 +1,4 @@
 name: "animation-duration"
-description: "The <code>animation-duration</code> CSS property specifies the length of time that an animation should take to complete one cycle."
+description_plain: "The animation-duration CSS property specifies the length of time that an animation should take to complete one cycle."
+description_html: "The <code>animation-duration</code> CSS property specifies the length of time that an animation should take to complete one cycle."
 javascript_property_name: animationDuration

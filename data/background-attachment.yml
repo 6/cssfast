@@ -1,3 +1,4 @@
 name: "background-attachment"
-description: "If a <code>background-image</code>\n is specified, the <code>background-attachment</code> CSS property determines whether that image's position is fixed within the viewport, or scrolls along with its containing block."
+description_plain: "If a background-image is specified, the background-attachment CSS property determines whether that image's position is fixed within the viewport, or scrolls along with its containing block."
+description_html: "If a <code>background-image</code>\n is specified, the <code>background-attachment</code> CSS property determines whether that image's position is fixed within the viewport, or scrolls along with its containing block."
 javascript_property_name: backgroundAttachment

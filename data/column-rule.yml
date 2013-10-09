@@ -1,3 +1,4 @@
 name: "column-rule"
-description: "In multi-column layouts, the <code>column-rule</code> CSS property specifies a straight line, or \"rule\", to be drawn between each column. It is a convenient shorthand to avoid setting each of the individual <code>column-rule-*</code> properties separately : <code>column-rule-width</code>\n, <code>column-rule-style</code>\n and <code>column-rule-color</code>\n."
+description_plain: "In multi-column layouts, the column-rule CSS property specifies a straight line, or \"rule\", to be drawn between each column. It is a convenient shorthand to avoid setting each of the individual column-rule-* properties separately : column-rule-width, column-rule-style and column-rule-color."
+description_html: "In multi-column layouts, the <code>column-rule</code> CSS property specifies a straight line, or \"rule\", to be drawn between each column. It is a convenient shorthand to avoid setting each of the individual <code>column-rule-*</code> properties separately : <code>column-rule-width</code>\n, <code>column-rule-style</code>\n and <code>column-rule-color</code>\n."
 javascript_property_name: columnRule

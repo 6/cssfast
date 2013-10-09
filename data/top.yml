@@ -1,3 +1,4 @@
 name: top
-description: "The <code>top</code> CSS property specifies part of the position of positioned elements. It has no effect on non-positioned elements."
+description_plain: "The top CSS property specifies part of the position of positioned elements. It has no effect on non-positioned elements."
+description_html: "The <code>top</code> CSS property specifies part of the position of positioned elements. It has no effect on non-positioned elements."
 javascript_property_name: top

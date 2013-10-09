@@ -1,3 +1,4 @@
 name: "background-position"
-description: "The<code> background-position </code>CSS property sets the initial position, relative to the background position layer defined by <code>background-origin</code>\n for each defined background image."
+description_plain: "The background-position CSS property sets the initial position, relative to the background position layer defined by background-origin for each defined background image."
+description_html: "The<code> background-position </code>CSS property sets the initial position, relative to the background position layer defined by <code>background-origin</code>\n for each defined background image."
 javascript_property_name: backgroundPosition

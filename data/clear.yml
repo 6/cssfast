@@ -1,3 +1,4 @@
 name: clear
-description: "The <code>clear</code> CSS property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them."
+description_plain: The clear CSS property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them.
+description_html: "The <code>clear</code> CSS property specifies whether an element can be next to floating elements that precede it or must be moved down (cleared) below them."
 javascript_property_name: clear

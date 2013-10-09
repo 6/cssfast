@@ -1,3 +1,4 @@
 name: "font-size"
-description: "The <code>font-size</code> CSS property specifies the size of the font. The font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units."
+description_plain: "The font-size CSS property specifies the size of the font. The font size may, in turn, change the size of other items, since it is used to compute the value of em and ex length units."
+description_html: "The <code>font-size</code> CSS property specifies the size of the font. The font size may, in turn, change the size of other items, since it is used to compute the value of <code>em</code> and <code>ex</code> length units."
 javascript_property_name: fontSize

@@ -1,3 +1,4 @@
 name: "list-style-image"
-description: "The<code> list-style-image </code>CSS property sets the image that will be used as the list item marker. It is often more convenient to use the shortcut <code>list-style</code>\n."
+description_plain: "The list-style-image CSS property sets the image that will be used as the list item marker. It is often more convenient to use the shortcut list-style."
+description_html: "The<code> list-style-image </code>CSS property sets the image that will be used as the list item marker. It is often more convenient to use the shortcut <code>list-style</code>\n."
 javascript_property_name: listStyleImage

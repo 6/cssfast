@@ -1,3 +1,4 @@
 name: visibility
-description: "The<code> visibility </code>CSS property is used for two things:"
+description_plain: "The visibility CSS property is used for two things:"
+description_html: "The<code> visibility </code>CSS property is used for two things:"
 javascript_property_name: visibility

@@ -1,3 +1,4 @@
 name: border
-description: "The <code>border</code> CSS property is a shorthand property for setting the individual border property values in a single place in the style sheet. <code>border</code> can be used to set the values for one or more of: <code>border-width</code>\n, <code>border-style</code>\n, <code>border-color</code>\n."
+description_plain: "The border CSS property is a shorthand property for setting the individual border property values in a single place in the style sheet. border can be used to set the values for one or more of: border-width, border-style, border-color."
+description_html: "The <code>border</code> CSS property is a shorthand property for setting the individual border property values in a single place in the style sheet. <code>border</code> can be used to set the values for one or more of: <code>border-width</code>\n, <code>border-style</code>\n, <code>border-color</code>\n."
 javascript_property_name: border

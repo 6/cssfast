@@ -1,3 +1,4 @@
 name: "perspective-origin"
-description: "The <code>perspective-origin</code> CSS property determines the position the viewer is looking at. It is used as the <em>vanishing point</em> by the <code>perspective</code>\n property."
+description_plain: "The perspective-origin CSS property determines the position the viewer is looking at. It is used as the <em>vanishing point</em> by the perspective property."
+description_html: "The <code>perspective-origin</code> CSS property determines the position the viewer is looking at. It is used as the <em>vanishing point</em> by the <code>perspective</code>\n property."
 javascript_property_name: perspectiveOrigin

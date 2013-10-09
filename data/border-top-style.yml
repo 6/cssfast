@@ -1,3 +1,4 @@
 name: "border-top-style"
-description: "The <code>border-top-style</code> CSS property sets the line style of the top border of a box."
+description_plain: "The border-top-style CSS property sets the line style of the top border of a box."
+description_html: "The <code>border-top-style</code> CSS property sets the line style of the top border of a box."
 javascript_property_name: borderTopStyle

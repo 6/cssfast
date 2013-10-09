@@ -1,3 +1,4 @@
 name: orphans
-description: "The <code>orphans</code> CSS property refers to the <em>minimum</em> number of lines in a block container that must be left at the bottom of the page.&nbsp; This property is normally used to control how page breaks occur."
+description_plain: "The orphans CSS property refers to the <em>minimum</em> number of lines in a block container that must be left at the bottom of the page.&nbsp; This property is normally used to control how page breaks occur."
+description_html: "The <code>orphans</code> CSS property refers to the <em>minimum</em> number of lines in a block container that must be left at the bottom of the page.&nbsp; This property is normally used to control how page breaks occur."
 javascript_property_name: orphans

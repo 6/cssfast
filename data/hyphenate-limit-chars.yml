@@ -1,3 +1,4 @@
 name: "hyphenate-limit-chars"
-description: ""
+description_plain: ""
+description_html: ""
 javascript_property_name: hyphenateLimitChars

@@ -1,3 +1,4 @@
 name: "text-decoration-color"
-description: "The <code>text-decoration-color</code> CSS property sets the color used when drawing underlines, overlines, or strike-throughs specified by <code>text-decoration-line</code>\n. This is the preferred way to color these text decorations, rather than using combinations of other HTML&nbsp;elements."
+description_plain: "The text-decoration-color CSS property sets the color used when drawing underlines, overlines, or strike-throughs specified by text-decoration-line. This is the preferred way to color these text decorations, rather than using combinations of other HTML&nbsp;elements."
+description_html: "The <code>text-decoration-color</code> CSS property sets the color used when drawing underlines, overlines, or strike-throughs specified by <code>text-decoration-line</code>\n. This is the preferred way to color these text decorations, rather than using combinations of other HTML&nbsp;elements."
 javascript_property_name: textDecorationColor

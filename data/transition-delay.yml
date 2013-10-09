@@ -1,3 +1,4 @@
 name: "transition-delay"
-description: "The<code> transition-delay </code>CSS property specifies the amount of time to wait between a change being requested to a property that is to be transitioned and the start of the transition effect."
+description_plain: "The transition-delay CSS property specifies the amount of time to wait between a change being requested to a property that is to be transitioned and the start of the transition effect."
+description_html: "The<code> transition-delay </code>CSS property specifies the amount of time to wait between a change being requested to a property that is to be transitioned and the start of the transition effect."
 javascript_property_name: transitionDelay

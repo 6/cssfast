@@ -1,3 +1,4 @@
 name: direction
-description: "The <code>direction</code> CSS property should be set to match the direction of the text: <code>rtl</code> for Hebrew or Arabic text and <code>ltr</code> for other scripts. This should normally be done as part of the document (e.g., using the <code>dir</code> attribute in HTML) rather than through direct use of CSS."
+description_plain: "The direction CSS property should be set to match the direction of the text: rtl for Hebrew or Arabic text and ltr for other scripts. This should normally be done as part of the document (e.g., using the dir attribute in HTML) rather than through direct use of CSS."
+description_html: "The <code>direction</code> CSS property should be set to match the direction of the text: <code>rtl</code> for Hebrew or Arabic text and <code>ltr</code> for other scripts. This should normally be done as part of the document (e.g., using the <code>dir</code> attribute in HTML) rather than through direct use of CSS."
 javascript_property_name: direction

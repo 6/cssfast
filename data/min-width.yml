@@ -1,3 +1,4 @@
 name: "min-width"
-description: "The<code> min-width </code>CSS property is used to set the minimum width of a given element. It prevents the used value of the <code>width</code>\n property from becoming smaller than the value specified for<code> min-width</code>."
+description_plain: "The min-width CSS property is used to set the minimum width of a given element. It prevents the used value of the width property from becoming smaller than the value specified for min-width."
+description_html: "The<code> min-width </code>CSS property is used to set the minimum width of a given element. It prevents the used value of the <code>width</code>\n property from becoming smaller than the value specified for<code> min-width</code>."
 javascript_property_name: minWidth

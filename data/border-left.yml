@@ -1,3 +1,4 @@
 name: "border-left"
-description: "The <code>border-left</code> CSS property is a shorthand that sets the values of <code>border-left-color</code>\n, <code>border-left-style</code>\n, and <code>border-left-width</code>\n. These properties describe the left border of elements."
+description_plain: "The border-left CSS property is a shorthand that sets the values of border-left-color, border-left-style, and border-left-width. These properties describe the left border of elements."
+description_html: "The <code>border-left</code> CSS property is a shorthand that sets the values of <code>border-left-color</code>\n, <code>border-left-style</code>\n, and <code>border-left-width</code>\n. These properties describe the left border of elements."
 javascript_property_name: borderLeft

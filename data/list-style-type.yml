@@ -1,3 +1,4 @@
 name: "list-style-type"
-description: "The<code> list-style-type </code>CSS property specifies appearance of a list item element. As it is the only one who defaults to <code>display:list-item</code>, this is usually a <code>&lt;li&gt;</code>\n element, but can be any element with this <code>display</code>\n value."
+description_plain: "The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a &lt;li&gt; element, but can be any element with this display value."
+description_html: "The<code> list-style-type </code>CSS property specifies appearance of a list item element. As it is the only one who defaults to <code>display:list-item</code>, this is usually a <code>&lt;li&gt;</code>\n element, but can be any element with this <code>display</code>\n value."
 javascript_property_name: listStyleType

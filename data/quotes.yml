@@ -1,3 +1,4 @@
 name: quotes
-description: "The <code>quotes</code> CSS property indicates how user agents should render quotation marks."
+description_plain: The quotes CSS property indicates how user agents should render quotation marks.
+description_html: "The <code>quotes</code> CSS property indicates how user agents should render quotation marks."
 javascript_property_name: quotes

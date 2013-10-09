@@ -1,3 +1,4 @@
 name: "page-break-inside"
-description: "The <code>page-break-inside</code> CSS property adjusts page breaks <em>inside</em> the current element."
+description_plain: "The page-break-inside CSS property adjusts page breaks <em>inside</em> the current element."
+description_html: "The <code>page-break-inside</code> CSS property adjusts page breaks <em>inside</em> the current element."
 javascript_property_name: pageBreakInside

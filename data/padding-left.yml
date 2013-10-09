@@ -1,3 +1,4 @@
 name: "padding-left"
-description: "The <code>padding-left</code> CSS property of an element sets the padding space required on the left side of an element. The padding area is the space between the content of the element and it's border. A negative value is not allowed."
+description_plain: "The padding-left CSS property of an element sets the padding space required on the left side of an element. The padding area is the space between the content of the element and it's border. A negative value is not allowed."
+description_html: "The <code>padding-left</code> CSS property of an element sets the padding space required on the left side of an element. The padding area is the space between the content of the element and it's border. A negative value is not allowed."
 javascript_property_name: paddingLeft

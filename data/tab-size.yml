@@ -1,3 +1,4 @@
 name: "tab-size"
-description: "The <code>tab-size</code> CSS property is used to customize the width of a tab (<code>U+0009</code>) character."
+description_plain: "The tab-size CSS property is used to customize the width of a tab (U+0009) character."
+description_html: "The <code>tab-size</code> CSS property is used to customize the width of a tab (<code>U+0009</code>) character."
 javascript_property_name: tabSize

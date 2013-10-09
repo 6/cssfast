@@ -1,3 +1,4 @@
 name: "text-decoration-style"
-description: "The <code>text-decoration-style</code> CSS property defines the style of the lines specified by <code>text-decoration-line</code>\n. The style applies to all lines, there is no way to define different style for each of the line defined by <code>text-decoration-line</code>."
+description_plain: "The text-decoration-style CSS property defines the style of the lines specified by text-decoration-line. The style applies to all lines, there is no way to define different style for each of the line defined by text-decoration-line."
+description_html: "The <code>text-decoration-style</code> CSS property defines the style of the lines specified by <code>text-decoration-line</code>\n. The style applies to all lines, there is no way to define different style for each of the line defined by <code>text-decoration-line</code>."
 javascript_property_name: textDecorationStyle

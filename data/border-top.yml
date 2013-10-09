@@ -1,3 +1,4 @@
 name: "border-top"
-description: "The <code>border-top</code> CSS property is a shorthand that sets the values of <code>border-top-color</code>\n, <code>border-top-style</code>\n, and <code>border-top-width</code>\n. These properties describe the top border of elements."
+description_plain: "The border-top CSS property is a shorthand that sets the values of border-top-color, border-top-style, and border-top-width. These properties describe the top border of elements."
+description_html: "The <code>border-top</code> CSS property is a shorthand that sets the values of <code>border-top-color</code>\n, <code>border-top-style</code>\n, and <code>border-top-width</code>\n. These properties describe the top border of elements."
 javascript_property_name: borderTop

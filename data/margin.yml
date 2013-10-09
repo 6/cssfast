@@ -1,3 +1,4 @@
 name: margin
-description: "The<code> margin </code>CSS property sets the margin for all four sides. It is a shorthand to avoid setting each side separately with the other margin properties:<br>\n<code>margin-top</code>\n, <code>margin-right</code>\n, <code>margin-bottom</code>\n and <code>margin-left</code>\n.<br>\nNegative value are also allowed."
+description_plain: "The margin CSS property sets the margin for all four sides. It is a shorthand to avoid setting each side separately with the other margin properties:<br>margin-top, margin-right, margin-bottom and margin-left.<br>Negative value are also allowed."
+description_html: "The<code> margin </code>CSS property sets the margin for all four sides. It is a shorthand to avoid setting each side separately with the other margin properties:<br>\n<code>margin-top</code>\n, <code>margin-right</code>\n, <code>margin-bottom</code>\n and <code>margin-left</code>\n.<br>\nNegative value are also allowed."
 javascript_property_name: margin

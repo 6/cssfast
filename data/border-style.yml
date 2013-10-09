@@ -1,3 +1,4 @@
 name: "border-style"
-description: "The <code>border-style</code> CSS property is a shorthand property for setting the line style for all four sides of the elements border."
+description_plain: "The border-style CSS property is a shorthand property for setting the line style for all four sides of the elements border."
+description_html: "The <code>border-style</code> CSS property is a shorthand property for setting the line style for all four sides of the elements border."
 javascript_property_name: borderStyle

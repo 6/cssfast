@@ -1,3 +1,4 @@
 name: "background-clip"
-description: "The<code> background-clip </code>CSS property specifies whether an element's background, either the color or image, extends underneath its border."
+description_plain: "The background-clip CSS property specifies whether an element's background, either the color or image, extends underneath its border."
+description_html: "The<code> background-clip </code>CSS property specifies whether an element's background, either the color or image, extends underneath its border."
 javascript_property_name: backgroundClip

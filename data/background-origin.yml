@@ -1,3 +1,4 @@
 name: "background-origin"
-description: "The<code> background-origin </code>CSS property determines the background positioning area, that is the position of the origin of an image specified using the <code>background-image</code>\n CSS property."
+description_plain: "The background-origin CSS property determines the background positioning area, that is the position of the origin of an image specified using the background-image CSS property."
+description_html: "The<code> background-origin </code>CSS property determines the background positioning area, that is the position of the origin of an image specified using the <code>background-image</code>\n CSS property."
 javascript_property_name: backgroundOrigin

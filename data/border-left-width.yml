@@ -1,3 +1,4 @@
 name: "border-left-width"
-description: "The <code>border-left-width</code> CSS property sets the width of the left border of a box."
+description_plain: "The border-left-width CSS property sets the width of the left border of a box."
+description_html: "The <code>border-left-width</code> CSS property sets the width of the left border of a box."
 javascript_property_name: borderLeftWidth

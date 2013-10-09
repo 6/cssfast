@@ -1,3 +1,4 @@
 name: right
-description: "The <code>right</code> CSS property specifies part of the position of positioned elements."
+description_plain: The right CSS property specifies part of the position of positioned elements.
+description_html: "The <code>right</code> CSS property specifies part of the position of positioned elements."
 javascript_property_name: right

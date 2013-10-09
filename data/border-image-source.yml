@@ -1,3 +1,4 @@
 name: "border-image-source"
-description: "The <code>border-image-source</code> CSS property defines the <code>&lt;image&gt;</code>\n to use instead of the style of the border. If this property is set to <code>none</code>, the style defined by <code>border-style</code>\n is used instead."
+description_plain: "The border-image-source CSS property defines the &lt;image&gt; to use instead of the style of the border. If this property is set to none, the style defined by border-style is used instead."
+description_html: "The <code>border-image-source</code> CSS property defines the <code>&lt;image&gt;</code>\n to use instead of the style of the border. If this property is set to <code>none</code>, the style defined by <code>border-style</code>\n is used instead."
 javascript_property_name: borderImageSource

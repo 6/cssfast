@@ -1,3 +1,4 @@
 name: "font-variant"
-description: "The<code> font-variant </code>CSS property selects a<code> normal</code>, or<code> small-caps </code>face from a font family. Setting<code> font-variant </code>is also possible by using the <code>font</code>\n shorthand."
+description_plain: "The font-variant CSS property selects a normal, or small-caps face from a font family. Setting font-variant is also possible by using the font shorthand."
+description_html: "The<code> font-variant </code>CSS property selects a<code> normal</code>, or<code> small-caps </code>face from a font family. Setting<code> font-variant </code>is also possible by using the <code>font</code>\n shorthand."
 javascript_property_name: fontVariant

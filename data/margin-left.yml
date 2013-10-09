@@ -1,3 +1,4 @@
 name: "margin-left"
-description: "The <code>margin-left</code> CSS property of an element sets the margin space required on the left side of an element. A negative value is also allowed."
+description_plain: "The margin-left CSS property of an element sets the margin space required on the left side of an element. A negative value is also allowed."
+description_html: "The <code>margin-left</code> CSS property of an element sets the margin space required on the left side of an element. A negative value is also allowed."
 javascript_property_name: marginLeft

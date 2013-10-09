@@ -1,3 +1,4 @@
 name: color
-description: "The <code>color</code> CSS property sets the foreground color of an element's text content"
+description_plain: "The color CSS property sets the foreground color of an element's text content"
+description_html: "The <code>color</code> CSS property sets the foreground color of an element's text content"
 javascript_property_name: color

@@ -1,3 +1,4 @@
 name: "margin-top"
-description: "The<code> margin-top </code>CSS property of an element sets the margin space required on the top of an element. A negative value is also allowed."
+description_plain: "The margin-top CSS property of an element sets the margin space required on the top of an element. A negative value is also allowed."
+description_html: "The<code> margin-top </code>CSS property of an element sets the margin space required on the top of an element. A negative value is also allowed."
 javascript_property_name: marginTop

@@ -1,3 +1,4 @@
 name: animation
-description: "The <code>animation</code> CSS property is a shorthand property for <code>animation-name</code>\n, <code>animation-duration</code>\n, <code>animation-timing-function</code>\n, <code>animation-delay</code>\n, <code>animation-iteration-count</code>\n and <code>animation-direction</code>\n."
+description_plain: "The animation CSS property is a shorthand property for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count and animation-direction."
+description_html: "The <code>animation</code> CSS property is a shorthand property for <code>animation-name</code>\n, <code>animation-duration</code>\n, <code>animation-timing-function</code>\n, <code>animation-delay</code>\n, <code>animation-iteration-count</code>\n and <code>animation-direction</code>\n."
 javascript_property_name: animation

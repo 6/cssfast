@@ -1,3 +1,4 @@
 name: "text-align-last"
-description: "The <code>text-align-last</code> CSS property describes how the last line of a block or a line right before a forced line break is aligned."
+description_plain: "The text-align-last CSS property describes how the last line of a block or a line right before a forced line break is aligned."
+description_html: "The <code>text-align-last</code> CSS property describes how the last line of a block or a line right before a forced line break is aligned."
 javascript_property_name: textAlignLast

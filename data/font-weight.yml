@@ -1,3 +1,4 @@
 name: "font-weight"
-description: "The <code>font-weight</code>\n CSS property specifies the weight or boldness of the font. However, some fonts are not available in all weights; some are available only on <code>normal</code> and <code>bold</code>."
+description_plain: "The font-weight CSS property specifies the weight or boldness of the font. However, some fonts are not available in all weights; some are available only on normal and bold."
+description_html: "The <code>font-weight</code>\n CSS property specifies the weight or boldness of the font. However, some fonts are not available in all weights; some are available only on <code>normal</code> and <code>bold</code>."
 javascript_property_name: fontWeight

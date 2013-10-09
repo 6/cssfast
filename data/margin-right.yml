@@ -1,3 +1,4 @@
 name: "margin-right"
-description: "The <code>margin-right</code> CSS property of an element sets the margin space required on the right side of an element. A negative value is also allowed."
+description_plain: "The margin-right CSS property of an element sets the margin space required on the right side of an element. A negative value is also allowed."
+description_html: "The <code>margin-right</code> CSS property of an element sets the margin space required on the right side of an element. A negative value is also allowed."
 javascript_property_name: marginRight

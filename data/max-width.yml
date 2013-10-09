@@ -1,3 +1,4 @@
 name: "max-width"
-description: "The<code> max-width </code>CSS property is used to set the maximum width of a given element. It prevents the used value of the <code>width</code>\n property from becoming larger than the value specified for<code> max-width</code>."
+description_plain: "The max-width CSS property is used to set the maximum width of a given element. It prevents the used value of the width property from becoming larger than the value specified for max-width."
+description_html: "The<code> max-width </code>CSS property is used to set the maximum width of a given element. It prevents the used value of the <code>width</code>\n property from becoming larger than the value specified for<code> max-width</code>."
 javascript_property_name: maxWidth

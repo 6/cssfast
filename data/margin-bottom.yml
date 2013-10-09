@@ -1,3 +1,4 @@
 name: "margin-bottom"
-description: "The <code>margin-bottom</code> CSS property of an element sets the margin space required on the bottom of an element. A negative value is also allowed."
+description_plain: "The margin-bottom CSS property of an element sets the margin space required on the bottom of an element. A negative value is also allowed."
+description_html: "The <code>margin-bottom</code> CSS property of an element sets the margin space required on the bottom of an element. A negative value is also allowed."
 javascript_property_name: marginBottom

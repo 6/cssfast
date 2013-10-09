@@ -1,3 +1,4 @@
 name: "border-right-color"
-description: "The<code> border-right-color </code>CSS property sets the color of the bottom border of an element. Note that in many cases the shorthand CSS properties&nbsp; <code>border-color</code>\n or <code>border-right</code>\n are more convenient and preferable."
+description_plain: "The border-right-color CSS property sets the color of the bottom border of an element. Note that in many cases the shorthand CSS properties&nbsp; border-color or border-right are more convenient and preferable."
+description_html: "The<code> border-right-color </code>CSS property sets the color of the bottom border of an element. Note that in many cases the shorthand CSS properties&nbsp; <code>border-color</code>\n or <code>border-right</code>\n are more convenient and preferable."
 javascript_property_name: borderRightColor

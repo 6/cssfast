@@ -1,3 +1,4 @@
 name: hyphens
-description: "The <code>hyphens</code> CSS property tells the browser how to go about splitting words to improve the layout of text when line-wrapping."
+description_plain: "The hyphens CSS property tells the browser how to go about splitting words to improve the layout of text when line-wrapping."
+description_html: "The <code>hyphens</code> CSS property tells the browser how to go about splitting words to improve the layout of text when line-wrapping."
 javascript_property_name: hyphens

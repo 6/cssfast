@@ -1,3 +1,4 @@
 name: resize
-description: "The <code>resize</code> CSS property lets you control the resizability of an element."
+description_plain: The resize CSS property lets you control the resizability of an element.
+description_html: "The <code>resize</code> CSS property lets you control the resizability of an element."
 javascript_property_name: resize

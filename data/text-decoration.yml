@@ -1,3 +1,4 @@
 name: "text-decoration"
-description: "The<code> text-decoration </code>CSS property is used to set the text formattings <code>underline, overline, line-through</code> and <code>blink</code>."
+description_plain: "The text-decoration CSS property is used to set the text formattings underline, overline, line-through and blink."
+description_html: "The<code> text-decoration </code>CSS property is used to set the text formattings <code>underline, overline, line-through</code> and <code>blink</code>."
 javascript_property_name: textDecoration

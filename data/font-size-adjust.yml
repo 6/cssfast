@@ -1,3 +1,4 @@
 name: "font-size-adjust"
-description: "The<code> font-size-adjust </code>CSS property specifies that font size should be chosen based on the height of lowercase letters rather than the height of capital letters."
+description_plain: "The font-size-adjust CSS property specifies that font size should be chosen based on the height of lowercase letters rather than the height of capital letters."
+description_html: "The<code> font-size-adjust </code>CSS property specifies that font size should be chosen based on the height of lowercase letters rather than the height of capital letters."
 javascript_property_name: fontSizeAdjust

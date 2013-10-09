@@ -1,3 +1,4 @@
 name: columns
-description: "The <code>columns</code> CSS property is a shorthand property allowing to set both the <code>column-width</code>\n and the <code>column-count</code>\n properties at the same time."
+description_plain: "The columns CSS property is a shorthand property allowing to set both the column-width and the column-count properties at the same time."
+description_html: "The <code>columns</code> CSS property is a shorthand property allowing to set both the <code>column-width</code>\n and the <code>column-count</code>\n properties at the same time."
 javascript_property_name: columns

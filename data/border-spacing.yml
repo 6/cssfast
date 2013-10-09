@@ -1,3 +1,4 @@
 name: "border-spacing"
-description: "The <code>border-spacing</code> CSS property specifies the distance between the borders of adjacent cells (only for the separated borders model). This is equivalent to the <code>cellspacing</code> attribute in presentational HTML, but an optional second value can be used to set different horizontal and vertical spacing."
+description_plain: "The border-spacing CSS property specifies the distance between the borders of adjacent cells (only for the separated borders model). This is equivalent to the cellspacing attribute in presentational HTML, but an optional second value can be used to set different horizontal and vertical spacing."
+description_html: "The <code>border-spacing</code> CSS property specifies the distance between the borders of adjacent cells (only for the separated borders model). This is equivalent to the <code>cellspacing</code> attribute in presentational HTML, but an optional second value can be used to set different horizontal and vertical spacing."
 javascript_property_name: borderSpacing

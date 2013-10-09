@@ -1,3 +1,4 @@
 name: "border-top-width"
-description: "The <code>border-top-width</code> CSS property sets the width of the top border of a box."
+description_plain: "The border-top-width CSS property sets the width of the top border of a box."
+description_html: "The <code>border-top-width</code> CSS property sets the width of the top border of a box."
 javascript_property_name: borderTopWidth

@@ -1,3 +1,4 @@
 name: "border-collapse"
-description: "The<code> border-collapse </code>CSS property selects a table's border model. This has a big influence on the look and style of the table cells."
+description_plain: "The border-collapse CSS property selects a table's border model. This has a big influence on the look and style of the table cells."
+description_html: "The<code> border-collapse </code>CSS property selects a table's border model. This has a big influence on the look and style of the table cells."
 javascript_property_name: borderCollapse
