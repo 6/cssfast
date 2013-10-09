@@ -23,13 +23,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 1000px; // temporary
 }
 
-h1 {
-  color: $gray;
-  font-weight: bold;
-  font-size: 36px;
+.logo {
   margin: 12px 0;
-  .site-name-fast {
-    color: $dark-gray;
+  a {
+    text-decoration: none;
+    color: $gray;
+    font-weight: bold;
+    font-size: 36px;
+    .site-name-fast {
+      color: $dark-gray;
+    }
   }
 }
 

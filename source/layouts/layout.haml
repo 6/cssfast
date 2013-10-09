@@ -21,7 +21,8 @@
 
   %body{class: page_classes}
     .nav
-      %h1= t(:site_name_html)
+      %h1.logo
+        %a{href: "/"}= t(:site_name_html)
       .search-form
         %input{name: 'search', type: 'text', placeholder: 'Enter a CSS property', tabindex: "1", autocomplete: 'off', spellcheck: 'false'}
         .results
