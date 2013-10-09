@@ -49,12 +49,14 @@ module.exports = (grunt) ->
     for property,data of cssData()
       description = if data.description_html != '' then data.description_html else data.description_plain
 
+      pageData = {
+        title: "CSS #{property} property"
+        description: data.description_plain
+      }
+
       # TODO - extract this into an external template file
       html = """
-      ---
-      title: CSS #{property} property
-      description: #{data.description_plain}
-      ---
+      ---\n#{yaml.dump(pageData)}---
       <h1 class='property-title'>#{property}</h1>
       <p class='property-description'>#{description}</p>
       """
