@@ -26,22 +26,22 @@ module.exports = (grunt) ->
     data = yaml.dump(data, {indent: 2})
     fs.writeFileSync(dataPath, data, 'utf-8', {flags: 'w+'})
 
-  cssProperties = ->
+  vendorCssProperties = ->
     JSON.parse(grunt.file.read('css-properties/css-prefixes.json'))
 
-  cssDescriptions = ->
+  vendorCssDescriptions = ->
     JSON.parse(grunt.file.read('hacktionary/css-properties.json'))
 
   grunt.registerTask 'cssPropertiesJS', ->
     properties = []
-    for property,prefixes of cssProperties()
+    for property,prefixes of vendorCssProperties()
       properties.push(property)
     propertiesJS = wrapJS("window.cssProperties = #{JSON.stringify(properties)};")
     fs.writeFileSync('source/javascripts/build/properties.js', propertiesJS, 'utf-8', {flags: 'w+'})
 
   grunt.registerTask 'cssPropertiesHTML', ->
-    descriptions = cssDescriptions()
-    for property,prefixes of cssProperties()
+    descriptions = vendorCssDescriptions()
+    for property,prefixes of vendorCssProperties()
       continue unless descriptions[property]?
       html = """
       ---
@@ -57,8 +57,8 @@ module.exports = (grunt) ->
       fs.unlinkSync(path)
 
   grunt.registerTask 'bootstrapCssData', ->
-    descriptions = cssDescriptions()
-    for property,prefixes of cssProperties()
+    descriptions = vendorCssDescriptions()
+    for property,prefixes of vendorCssProperties()
       description = descriptions[property] || ""
       description_html = removeHtmlTags('a', description)
       # MDN descriptions only have <a> and <code> tags
