@@ -1,3 +1,3 @@
 name: "border-width"
-description: "The<code> border-width </code>CSS property sets the width of the border of a box. Using the shorthand property <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border\">border</a></code>\n is often more convenient."
+description: "The<code> border-width </code>CSS property sets the width of the border of a box. Using the shorthand property <code>border</code>\n is often more convenient."
 javascript_property_name: borderWidth

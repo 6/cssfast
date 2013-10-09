@@ -1,3 +1,3 @@
 name: content
-description: "The<code> content </code>CSS property is used with the <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/%3Abefore\">:before</a></code>\n and <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/%3Aafter\">:after</a></code>\n pseudo-elements to generate content in an element."
+description: "The<code> content </code>CSS property is used with the <code>:before</code>\n and <code>:after</code>\n pseudo-elements to generate content in an element."
 javascript_property_name: content

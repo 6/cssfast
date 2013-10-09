@@ -1,3 +1,3 @@
 name: orphans
-description: "The <code>orphans</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property refers to the <em>minimum</em> number of lines in a block container that must be left at the bottom of the page.&nbsp; This property is normally used to control how page breaks occur."
+description: "The <code>orphans</code> CSS property refers to the <em>minimum</em> number of lines in a block container that must be left at the bottom of the page.&nbsp; This property is normally used to control how page breaks occur."
 javascript_property_name: orphans

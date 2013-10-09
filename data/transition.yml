@@ -1,3 +1,3 @@
 name: transition
-description: "The<code> transition </code><a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property is a shorthand property for <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/transition-property\">transition-property</a></code>\n, <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/transition-duration\">transition-duration</a></code>\n, <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/transition-timing-function\">transition-timing-function</a></code>\n, and <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/transition-delay\">transition-delay</a></code>\n."
+description: "The<code> transition </code>CSS property is a shorthand property for <code>transition-property</code>\n, <code>transition-duration</code>\n, <code>transition-timing-function</code>\n, and <code>transition-delay</code>\n."
 javascript_property_name: transition

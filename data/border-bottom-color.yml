@@ -1,3 +1,3 @@
 name: "border-bottom-color"
-description: "The<code> border-bottom-color </code>CSS property sets the color of the bottom border of an element. Note that in many cases the shorthand CSS properties&nbsp; <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border-color\">border-color</a></code>\n or <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border-bottom\">border-bottom</a></code>\n are more convenient and preferable."
+description: "The<code> border-bottom-color </code>CSS property sets the color of the bottom border of an element. Note that in many cases the shorthand CSS properties&nbsp; <code>border-color</code>\n or <code>border-bottom</code>\n are more convenient and preferable."
 javascript_property_name: borderBottomColor

@@ -1,3 +1,3 @@
 name: "overflow-x"
-description: "The <code>overflow-x </code><a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property specifies whether to clip content, render a scroll bar or display overflow content of a block-level element, when it overflows at the left and right edges."
+description: "The <code>overflow-x </code>CSS property specifies whether to clip content, render a scroll bar or display overflow content of a block-level element, when it overflows at the left and right edges."
 javascript_property_name: overflowX

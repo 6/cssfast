@@ -1,3 +1,3 @@
 name: "animation-play-state"
-description: "The <code>animation-play-state</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property determines whether an animation is running or paused. You can query this property's value to determine whether or not the animation is currently running; in addition, you can set its value to pause and resume playback of an animation."
+description: "The <code>animation-play-state</code> CSS property determines whether an animation is running or paused. You can query this property's value to determine whether or not the animation is currently running; in addition, you can set its value to pause and resume playback of an animation."
 javascript_property_name: animationPlayState

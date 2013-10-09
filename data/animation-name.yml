@@ -1,3 +1,3 @@
 name: "animation-name"
-description: "The <code>animation-name</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property specifies a list of animations that should be applied to the selected element. Each name indicates a <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/@keyframes\">@keyframes</a></code>\n at-rule that defines the property values for the animation sequence."
+description: "The <code>animation-name</code> CSS property specifies a list of animations that should be applied to the selected element. Each name indicates a <code>@keyframes</code>\n at-rule that defines the property values for the animation sequence."
 javascript_property_name: animationName

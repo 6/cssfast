@@ -1,3 +1,3 @@
 name: "padding-top"
-description: "The <code>padding-top</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property of an element sets the padding space required on the top of an element. The <a title=\"http://developer.mozilla.org/en/CSS/Box_model#padding\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/box_model#padding\">padding area</a> is the space between the content of the element and it's border. A negative values is not allowed."
+description: "The <code>padding-top</code> CSS property of an element sets the padding space required on the top of an element. The padding area is the space between the content of the element and it's border. A negative values is not allowed."
 javascript_property_name: paddingTop

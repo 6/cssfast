@@ -1,3 +1,3 @@
 name: "caption-side"
-description: "The <code>caption-side</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property positions the content of a table's <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/HTML/Element/caption\">&lt;caption&gt;</a></code>\n on the specified side."
+description: "The <code>caption-side</code> CSS property positions the content of a table's <code>&lt;caption&gt;</code>\n on the specified side."
 javascript_property_name: captionSide

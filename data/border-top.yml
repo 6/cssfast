@@ -1,3 +1,3 @@
 name: "border-top"
-description: "The <code>border-top</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property is a shorthand that sets the values of <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border-top-color\">border-top-color</a></code>\n, <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border-top-style\">border-top-style</a></code>\n, and <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border-top-width\">border-top-width</a></code>\n. These properties describe the top border of elements."
+description: "The <code>border-top</code> CSS property is a shorthand that sets the values of <code>border-top-color</code>\n, <code>border-top-style</code>\n, and <code>border-top-width</code>\n. These properties describe the top border of elements."
 javascript_property_name: borderTop

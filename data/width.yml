@@ -1,3 +1,3 @@
 name: width
-description: "The<code> width </code>CSS property specifies the width of the content area of an element. The <a title=\"en/CSS/box_model#content\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/box_model#content\">content area</a> is <em>inside</em> the padding, border, and margin of the element."
+description: "The<code> width </code>CSS property specifies the width of the content area of an element. The content area is <em>inside</em> the padding, border, and margin of the element."
 javascript_property_name: width
