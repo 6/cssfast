@@ -1,4 +1,4 @@
 name: "list-style-position"
-description_plain: "The list-style-position CSS property specifies the position of the marker box in the principal block box. It is often more convenient to use the shortcut <span class=\"lang lang-en\">list-style</span>."
-description_html: "The<code> list-style-position </code>CSS property specifies the position of the marker box in the principal block box. It is often more convenient to use the shortcut <span class=\"lang lang-en\"><code>list-style</code>\n</span>."
+description_plain: "The list-style-position CSS property specifies the position of the marker box in the principal block box. It is often more convenient to use the shortcut list-style."
+description_html: "The<code> list-style-position </code>CSS property specifies the position of the marker box in the principal block box. It is often more convenient to use the shortcut <code>list-style</code>."
 javascript_property_name: listStylePosition
