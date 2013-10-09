@@ -1,2 +1,3 @@
 name: "white-space"
 description: "The<code> white-space </code>CSS property is used to to describe how whitespace inside the element is handled."
+javascript_property_name: whiteSpace

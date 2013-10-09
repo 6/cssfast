@@ -1,2 +1,3 @@
 name: "line-height"
 description: "On inline elements, the<code> line-height </code>CSS property specifies the height that is used in the calculation of the line box height.<br>\nOn block level elements,<code> line-height </code>specifies the minimal height of line boxes within the element."
+javascript_property_name: lineHeight

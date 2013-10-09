@@ -1,2 +1,3 @@
 name: "hyphenate-limit-chars"
 description: ""
+javascript_property_name: hyphenateLimitChars

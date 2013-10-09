@@ -1,2 +1,3 @@
 name: "border-left-color"
 description: "The<code> border-left-color </code>CSS property sets the color of the bottom border of an element. Note that in many cases the shorthand CSS properties&nbsp; <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border-color\">border-color</a></code>\n or <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/border-left\">border-left</a></code>\n are more convenient and preferable."
+javascript_property_name: borderLeftColor

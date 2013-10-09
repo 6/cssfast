@@ -1,2 +1,3 @@
 name: "outline-offset"
 description: "The<code> outline-offset </code>CSS property is used to set space between an <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/outline\">outline</a></code>\n and the edge or border of an element. An outline is a line that is drawn around elements, outside the border edge."
+javascript_property_name: outlineOffset

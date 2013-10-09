@@ -1,2 +1,3 @@
 name: "outline-color"
 description: "The<code> outline-color </code>CSS property sets the color of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out."
+javascript_property_name: outlineColor

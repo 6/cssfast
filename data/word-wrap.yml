@@ -1,2 +1,3 @@
 name: "word-wrap"
 description: "The <code>word-wrap</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property is used to to specify whether or not the browser is allowed to break lines within words in order to prevent overflow when an otherwise unbreakable string is too long to fit."
+javascript_property_name: wordWrap

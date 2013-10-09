@@ -1,2 +1,3 @@
 name: "device-pixel-ratio"
 description: ""
+javascript_property_name: devicePixelRatio

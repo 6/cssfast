@@ -1,2 +1,3 @@
 name: "text-decoration-line"
 description: "The <code>text-decoration-line</code> CSS property sets what kind of line decorations are added to an element."
+javascript_property_name: textDecorationLine

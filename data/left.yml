@@ -1,2 +1,3 @@
 name: left
 description: "The <code>left</code> CSS property specifies part of the position of positioned elements."
+javascript_property_name: left

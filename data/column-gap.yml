@@ -1,2 +1,3 @@
 name: "column-gap"
 description: "The <code>column-gap</code> CSS property sets the size of the gap between columns for elements which are specified to display as a multi-column element."
+javascript_property_name: columnGap

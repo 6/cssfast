@@ -1,2 +1,3 @@
 name: "page-break-inside"
 description: "The <code>page-break-inside</code> CSS property adjusts page breaks <em>inside</em> the current element."
+javascript_property_name: pageBreakInside

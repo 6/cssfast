@@ -1,2 +1,3 @@
 name: "page-break-after"
 description: "The <code>page-break-after</code> CSS property adjusts page breaks <em>after</em> the current element."
+javascript_property_name: pageBreakAfter

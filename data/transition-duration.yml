@@ -1,2 +1,3 @@
 name: "transition-duration"
 description: "The<code> transition-duration </code><a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property specifies the number of seconds or milliseconds a transition animation should take to complete. By default, the value is 0s, meaning that no animation will occur."
+javascript_property_name: transitionDuration

@@ -1,2 +1,3 @@
 name: "font-stretch"
 description: "The<code> font-stretch </code>CSS property selects a normal, condensed, or extended face from a font family."
+javascript_property_name: fontStretch

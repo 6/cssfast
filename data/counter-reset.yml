@@ -1,2 +1,3 @@
 name: "counter-reset"
 description: "The <code>counter-reset</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property is used to reset <a title=\"en/CSS_Counters\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS_Counters\">CSS Counters</a> to a given value."
+javascript_property_name: counterReset

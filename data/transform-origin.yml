@@ -1,2 +1,3 @@
 name: "transform-origin"
 description: "The <code>transform-origin</code> CSS property lets you modify the origin for transformations of an element. For example, the transform-origin of the <code>rotate()</code> function is the centre of rotation. (This property is applied by first translating the element by the negated value of the property, then applying the element's transform, then translating by the property value.)"
+javascript_property_name: transformOrigin

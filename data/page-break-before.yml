@@ -1,2 +1,3 @@
 name: "page-break-before"
 description: "The <code>page-break-before</code> CSS property adjusts page breaks <em>before</em> the current element."
+javascript_property_name: pageBreakBefore

@@ -1,2 +1,3 @@
 name: "empty-cells"
 description: "The <code>empty-cells </code>CSS property specifies how user agent should render borders and backgrounds around cells that have no visible content."
+javascript_property_name: emptyCells

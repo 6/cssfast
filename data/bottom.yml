@@ -1,2 +1,3 @@
 name: bottom
 description: "The <code>bottom</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property participates in specifying the position of <em>positioned elements</em>."
+javascript_property_name: bottom

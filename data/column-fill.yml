@@ -1,2 +1,3 @@
 name: "column-fill"
 description: "The <code>column-fill</code> CSS property controls how contents are partitioned into columns. Contents are either balanced, which means that contents in all columns will have the same height or, when using <code>auto</code>, just take up the room the content needs."
+javascript_property_name: columnFill

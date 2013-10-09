@@ -1,2 +1,3 @@
 name: "column-count"
 description: "The <code>column-count </code>CSS property describes the number of columns of the element."
+javascript_property_name: columnCount

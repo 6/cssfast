@@ -1,2 +1,3 @@
 name: "border-top-left-radius"
 description: "The <code>border-top-left-radius</code> CSS property sets the rounding of the top-left corner of the element. The rounding can be a circle or an ellipse, or if one of the value is <code>0</code> no rounding is done and the corner is square."
+javascript_property_name: borderTopLeftRadius

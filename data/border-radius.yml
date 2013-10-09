@@ -1,2 +1,3 @@
 name: "border-radius"
 description: "The <code>border-radius</code> CSS property allows Web authors to define how rounded border corners are. The curve of each corner is defined using one or two radii, defining its shape: circle or ellipse."
+javascript_property_name: borderRadius

@@ -1,2 +1,3 @@
 name: opacity
 description: "The <code>opacity</code> CSS property specifies the transparency of an element, that is, the degree to which the background behind the element is overlaid."
+javascript_property_name: opacity
