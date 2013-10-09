@@ -1,0 +1,2 @@
+name: "font-variant"
+description: "The<code> font-variant </code>CSS property selects a<code> normal</code>, or<code> small-caps </code>face from a font family. Setting<code> font-variant </code>is also possible by using the <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/font\">font</a></code>\n shorthand."

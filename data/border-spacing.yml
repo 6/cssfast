@@ -1,0 +1,2 @@
+name: "border-spacing"
+description: "The <code>border-spacing</code> CSS property specifies the distance between the borders of adjacent cells (only for the <a title=\"en/CSS/border-collapse\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/border-collapse\">separated borders model</a>). This is equivalent to the <code>cellspacing</code> attribute in presentational HTML, but an optional second value can be used to set different horizontal and vertical spacing."

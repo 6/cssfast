@@ -1,0 +1,2 @@
+name: "transition-property"
+description: "The <code>transition-property</code> CSS property is used to specify the names of CSS properties to which a <a title=\"en/CSS/CSS transitions\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/CSS_transitions\">transition effect</a> should be applied."

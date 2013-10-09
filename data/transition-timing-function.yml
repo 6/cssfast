@@ -1,0 +1,2 @@
+name: "transition-timing-function"
+description: "The<code> transition-timing-function </code>CSS property is used to describe how the intermediate values of the CSS&nbsp;properties being affected by a <a title=\"en/CSS/CSS transitions\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/CSS_transitions\">transition effect</a> are calculated. This in essence lets you establish an acceleration curve, so that the speed of the transition can vary over its duration."

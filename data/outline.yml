@@ -1,0 +1,2 @@
+name: outline
+description: "The<code> outline </code>CSS property is a shorthand property for setting one or more of the individual outline properties <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/outline-style\">outline-style</a></code>\n, <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/outline-width\">outline-width</a></code>\n and <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/outline-color\">outline-color</a></code>\n in a single rule. In most cases the use of this shortcut is preferable and more convenient."

@@ -1,0 +1,2 @@
+name: "transition-delay"
+description: "The<code> transition-delay </code><a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property specifies the amount of time to wait between a change being requested to a property that is to be transitioned and the start of the <a title=\"en/CSS/CSS transitions\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/CSS_transitions\">transition effect</a>."

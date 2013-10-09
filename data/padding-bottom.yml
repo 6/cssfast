@@ -1,0 +1,2 @@
+name: "padding-bottom"
+description: "The <code>padding-bottom</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property of an element sets the padding space required on the bottom of an element. The <a title=\"http://developer.mozilla.org/en/CSS/Box_model#padding\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/box_model#padding\">padding area</a> is the space between the content of the element and it's border. A negative value is not allowed."

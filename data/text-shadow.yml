@@ -1,0 +1,2 @@
+name: "text-shadow"
+description: "The<code> text-shadow </code>CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/text-decoration\">text-decorations</a></code>\n of the element."

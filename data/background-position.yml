@@ -1,0 +1,2 @@
+name: "background-position"
+description: "The<code> background-position </code>CSS property sets the initial position, relative to the background position layer defined by <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/background-origin\">background-origin</a></code>\n for each defined background image."

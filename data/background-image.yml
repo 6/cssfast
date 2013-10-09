@@ -1,0 +1,2 @@
+name: "background-image"
+description: "The<code> background-image </code>CSS property sets the background images for an element. The images are drawn on successive stacking context layers, with the first specified being drawn as if it is the closest to the user. The <a title=\"border\" rel=\"internal\" href=\"https://developer.mozilla.org/cn/CSS/border\">borders</a> of the element are then drawn on top of them, and the <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/background-color\">background-color</a></code>\n is drawn beneath them."

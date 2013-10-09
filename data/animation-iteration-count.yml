@@ -1,0 +1,2 @@
+name: "animation-iteration-count"
+description: "The <code>animation-iteration-count</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property defines the number of times an animation cycle should be played before stopping."

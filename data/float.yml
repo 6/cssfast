@@ -1,0 +1,2 @@
+name: float
+description: "The <code>float</code> CSS property specifies that an element should be taken from the normal flow and placed along the left or right side of its container, where text and inline elements will wrap around it."

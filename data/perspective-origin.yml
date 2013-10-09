@@ -1,0 +1,2 @@
+name: "perspective-origin"
+description: "The <code>perspective-origin</code> <a title=\"CSS\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS\">CSS</a> property determines the position the viewer is looking at. It is used as the <em>vanishing point</em> by the <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/perspective\">perspective</a></code>\n property."

@@ -1,0 +1,2 @@
+name: padding
+description: "The<code> padding </code>CSS property sets the required padding space on all sides of an element. The <a title=\"http://developer.mozilla.org/en/CSS/Box_model#padding\" rel=\"internal\" href=\"https://developer.mozilla.org/en/CSS/Box_model#padding\">padding area</a> is the space between the content of the element and its border. Negative values are not allowed."

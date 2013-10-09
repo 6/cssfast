@@ -1,0 +1,2 @@
+name: "background-origin"
+description: "The<code> background-origin </code>CSS property determines the background positioning area, that is the position of the origin of an image specified using the <code><a rel=\"custom\" href=\"https://developer.mozilla.org/en/CSS/background-image\">background-image</a></code>\n CSS property."

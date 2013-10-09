@@ -1,0 +1,2 @@
+name: "column-span"
+description: "The <code>column-span</code> CSS property makes it possible for an element to span across all columns when its value is set to <code>all</code>. An element that spans more than one column is called a <strong>spanning element</strong>."

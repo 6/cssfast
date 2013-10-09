@@ -1,0 +1,2 @@
+name: "font-size-adjust"
+description: "The<code> font-size-adjust </code>CSS property specifies that font size should be chosen based on the height of lowercase letters rather than the height of capital letters."
