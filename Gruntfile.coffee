@@ -12,6 +12,10 @@ module.exports = (grunt) ->
     String(str).replace /\-([a-z])/g, (match, submatch) ->
       submatch.toUpperCase()
 
+  removeAnchorTags = (str) ->
+    String(str).replace /<a\b[^>]*>(.*?)<\/a>/ig, (match, submatch) ->
+      submatch
+
   createOrMergeData = (property, data) ->
     dataPath = "data/#{property}.yml"
     # Don't overwrite existing data
@@ -54,9 +58,12 @@ module.exports = (grunt) ->
   grunt.registerTask 'bootstrapCssData', ->
     descriptions = cssDescriptions()
     for property,prefixes of cssProperties()
+      description = ""
+      if descriptions[property]
+        description = removeAnchorTags(descriptions[property])
       createOrMergeData(property, {
         name: property
-        description: descriptions[property] || ""
+        description: description
         javascript_property_name: camelize(property)
       })
 
