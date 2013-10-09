@@ -8,6 +8,10 @@ module.exports = (grunt) ->
   wrapJS = (js) ->
     "(function() { #{js} }).call(this);"
 
+  camelize = (str) ->
+    String(str).replace /\-([a-z])/g, (match, submatch) ->
+      submatch.toUpperCase()
+
   createOrMergeData = (property, data) ->
     dataPath = "data/#{property}.yml"
     # Don't overwrite existing data
@@ -53,6 +57,7 @@ module.exports = (grunt) ->
       createOrMergeData(property, {
         name: property
         description: descriptions[property] || ""
+        javascript_property_name: camelize(property)
       })
 
   grunt.registerTask('default', ['removeGeneratedHTML', 'cssPropertiesJS', 'cssPropertiesHTML'])
