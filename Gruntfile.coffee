@@ -67,7 +67,7 @@ module.exports = (grunt) ->
           html += "<li><a href='/#{related}/'>#{related}</a></li>"
         html += "</ul>"
 
-      fs.writeFileSync("source/#{property}.erb", html, 'utf-8', {flags: 'w+'})
+      fs.writeFileSync("source/#{property}.erb", html+"\n", 'utf-8', {flags: 'w+'})
 
   grunt.registerTask 'removeGeneratedHTML', ->
     for path in glob.sync('source/*.erb')
