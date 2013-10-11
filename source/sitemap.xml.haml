@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-- host = "http://cssfast.com/"
+- host = "http://cssfast.com"
 %urlset{xmlns: "http://www.sitemaps.org/schemas/sitemap/0.9"}
   %url
     %loc= host
     %lastmod= DateTime.now.to_time.iso8601
     %changefreq weekly
+  - sitemap.resources.select { |page| page.path =~ /\.html/ }.each do |page|
+    %url
+      %loc= host + page.url
+      - if page.data.lastmod
+        %lastmod= page.data.lastmod.to_time.iso8601
+      %changefreq weekly
