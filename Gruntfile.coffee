@@ -47,18 +47,16 @@ module.exports = (grunt) ->
   grunt.registerTask 'cssPropertiesHTML', ->
     # TODO - encapsulate CSS property data in a class
     for property,data of cssData()
-      description = if data.description_html != '' then data.description_html else data.description_plain
-
       pageData = {
         title: "CSS #{property} property"
-        description: data.description_plain
+        description: removeHtmlTags('a', removeHtmlTags('code', data.description))
       }
 
       # TODO - extract this into an external template file
       html = """
       ---\n#{yaml.dump(pageData)}---
       <h1 class='property-title'>#{property}</h1>
-      <p class='property-description'>#{description}</p>
+      <p class='property-description'>#{data.description}</p>
       <div class='edit-link-container'>[<a href='https://github.com/6/cssfast/blob/master/data/#{property}.yml'>Edit on GitHub</a>]</div>
       """
       if data.related?.length > 0
@@ -77,13 +75,10 @@ module.exports = (grunt) ->
     descriptions = vendorCssDescriptions()
     for property,prefixes of vendorCssProperties()
       description = descriptions[property] || ""
-      description_html = removeHtmlTags('a', description)
-      # MDN descriptions only have <a> and <code> tags
-      description_plain = removeHtmlTags('code', description_html).replace(/\n/g, "")
+      description = removeHtmlTags('span', removeHtmlTags('a', description)).replace(/\n/g, "")
       createOrMergeData(property, {
         name: property
-        description_plain: description_plain
-        description_html: description_html
+        description: description
         javascript_property_name: camelize(property)
       })
 
