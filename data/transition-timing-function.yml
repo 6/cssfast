@@ -1,4 +1,3 @@
 name: "transition-timing-function"
-description_plain: "The transition-timing-function CSS property is used to describe how the intermediate values of the CSS&nbsp;properties being affected by a transition effect are calculated. This in essence lets you establish an acceleration curve, so that the speed of the transition can vary over its duration."
-description_html: "The<code> transition-timing-function </code>CSS property is used to describe how the intermediate values of the CSS&nbsp;properties being affected by a transition effect are calculated. This in essence lets you establish an acceleration curve, so that the speed of the transition can vary over its duration."
+description: "The<code> transition-timing-function </code>CSS property is used to describe how the intermediate values of the CSS&nbsp;properties being affected by a transition effect are calculated. This in essence lets you establish an acceleration curve, so that the speed of the transition can vary over its duration."
 javascript_property_name: transitionTimingFunction

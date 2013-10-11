@@ -1,4 +1,3 @@
 name: "border-image-outset"
-description_plain: "The border-image-outset property describes, by which amount <dfn id=\"border-image-area\">border image area</dfn> extends beyond the border box."
-description_html: "The <code>border-image-outset </code>property describes, by which amount <dfn id=\"border-image-area\">border image area</dfn> extends beyond the border box."
+description: "The <code>border-image-outset </code>property describes, by which amount <dfn id=\"border-image-area\">border image area</dfn> extends beyond the border box."
 javascript_property_name: borderImageOutset

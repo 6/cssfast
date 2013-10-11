@@ -1,4 +1,3 @@
 name: transform
-description_plain: "The transform CSS property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed according to the values set."
-description_html: "The <code>transform</code> CSS property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed according to the values set."
+description: "The <code>transform</code> CSS property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed according to the values set."
 javascript_property_name: transform

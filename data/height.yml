@@ -1,4 +1,3 @@
 name: height
-description_plain: "The height CSS property specifies the height of the content area of an element. The content area is <em>inside</em> the padding, border, and margin of the element."
-description_html: "The<code> height </code>CSS property specifies the height of the content area of an element. The content area is <em>inside</em> the padding, border, and margin of the element."
+description: "The<code> height </code>CSS property specifies the height of the content area of an element. The content area is <em>inside</em> the padding, border, and margin of the element."
 javascript_property_name: height

@@ -1,4 +1,3 @@
 name: "text-shadow"
-description_plain: "The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and text-decorations of the element."
-description_html: "The<code> text-shadow </code>CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and <code>text-decorations</code>\n of the element."
+description: "The<code> text-shadow </code>CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and <code>text-decorations</code> of the element."
 javascript_property_name: textShadow

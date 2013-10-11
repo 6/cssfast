@@ -1,8 +1,7 @@
 name: "background-position-x"
-description_plain: ""
-description_html: ""
+description: ""
 javascript_property_name: backgroundPositionX
-related:
+related: 
   - background
-  - background-position
-  - background-position-y
+  - "background-position"
+  - "background-position-y"

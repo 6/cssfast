@@ -1,4 +1,3 @@
 name: "caption-side"
-description_plain: "The caption-side CSS property positions the content of a table's &lt;caption&gt; on the specified side."
-description_html: "The <code>caption-side</code> CSS property positions the content of a table's <code>&lt;caption&gt;</code>\n on the specified side."
+description: "The <code>caption-side</code> CSS property positions the content of a table's <code>&lt;caption&gt;</code> on the specified side."
 javascript_property_name: captionSide

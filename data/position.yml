@@ -1,4 +1,3 @@
 name: position
-description_plain: "The position CSS property chooses alternative rules for positioning elements, designed to be useful for scripted animation effects."
-description_html: "The<code> position </code>CSS property chooses alternative rules for positioning elements, designed to be useful for scripted animation effects."
+description: "The<code> position </code>CSS property chooses alternative rules for positioning elements, designed to be useful for scripted animation effects."
 javascript_property_name: position

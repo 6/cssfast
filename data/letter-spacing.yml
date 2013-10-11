@@ -1,4 +1,3 @@
 name: "letter-spacing"
-description_plain: "The letter-spacing CSS property specifies spacing behavior between text characters."
-description_html: "The<code> letter-spacing </code>CSS property specifies spacing behavior between text characters."
+description: "The<code> letter-spacing </code>CSS property specifies spacing behavior between text characters."
 javascript_property_name: letterSpacing

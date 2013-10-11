@@ -1,4 +1,3 @@
 name: transition
-description_plain: "The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay."
-description_html: "The<code> transition </code>CSS property is a shorthand property for <code>transition-property</code>\n, <code>transition-duration</code>\n, <code>transition-timing-function</code>\n, and <code>transition-delay</code>\n."
+description: "The<code> transition </code>CSS property is a shorthand property for <code>transition-property</code>, <code>transition-duration</code>, <code>transition-timing-function</code>, and <code>transition-delay</code>."
 javascript_property_name: transition

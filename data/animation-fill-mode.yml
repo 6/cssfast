@@ -1,6 +1,5 @@
 name: "animation-fill-mode"
-description_plain: ""
-description_html: ""
+description: ""
 javascript_property_name: animationFillMode
-related:
+related: 
   - animation

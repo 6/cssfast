@@ -1,4 +1,3 @@
 name: "vertical-align"
-description_plain: "The vertical-align CSS property specifies the vertical alignment of an inline or table-cell element."
-description_html: "The <code>vertical-align</code> CSS property specifies the vertical alignment of an inline or table-cell element."
+description: "The <code>vertical-align</code> CSS property specifies the vertical alignment of an inline or table-cell element."
 javascript_property_name: verticalAlign

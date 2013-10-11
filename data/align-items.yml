@@ -1,7 +1,6 @@
 name: "align-items"
-description_plain: ""
-description_html: ""
+description: ""
 javascript_property_name: alignItems
-related:
-  - align-content
-  - align-self
+related: 
+  - "align-content"
+  - "align-self"

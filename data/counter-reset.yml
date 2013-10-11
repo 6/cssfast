@@ -1,4 +1,3 @@
 name: "counter-reset"
-description_plain: "The counter-reset CSS property is used to reset CSS Counters to a given value."
-description_html: "The <code>counter-reset</code> CSS property is used to reset CSS Counters to a given value."
+description: "The <code>counter-reset</code> CSS property is used to reset CSS Counters to a given value."
 javascript_property_name: counterReset

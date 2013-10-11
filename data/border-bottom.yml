@@ -1,4 +1,3 @@
 name: "border-bottom"
-description_plain: "The border-bottom CSS property is a shorthand that sets the values of border-bottom-color, border-bottom-style, and border-bottom-width. These properties describe the bottom border of elements."
-description_html: "The <code>border-bottom</code> CSS property is a shorthand that sets the values of <code>border-bottom-color</code>\n, <code>border-bottom-style</code>\n, and <code>border-bottom-width</code>\n. These properties describe the bottom border of elements."
+description: "The <code>border-bottom</code> CSS property is a shorthand that sets the values of <code>border-bottom-color</code>, <code>border-bottom-style</code>, and <code>border-bottom-width</code>. These properties describe the bottom border of elements."
 javascript_property_name: borderBottom

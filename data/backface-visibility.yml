@@ -1,4 +1,3 @@
 name: "backface-visibility"
-description_plain: "The backface-visibility CSS property determines whether or not the back face of the element is visible when facing the user. The back face of an element always is a transparent background, letting, when visible, a mirror image of the front face be displayed."
-description_html: "The <code>backface-visibility</code> CSS property determines whether or not the back face of the element is visible when facing the user. The back face of an element always is a transparent background, letting, when visible, a mirror image of the front face be displayed."
+description: "The <code>backface-visibility</code> CSS property determines whether or not the back face of the element is visible when facing the user. The back face of an element always is a transparent background, letting, when visible, a mirror image of the front face be displayed."
 javascript_property_name: backfaceVisibility

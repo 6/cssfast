@@ -1,6 +1,5 @@
 name: "background-image"
-description_plain: "The background-image CSS property sets the background images for an element. The images are drawn on successive stacking context layers, with the first specified being drawn as if it is the closest to the user. The borders of the element are then drawn on top of them, and the background-color is drawn beneath them."
-description_html: "The<code> background-image </code>CSS property sets the background images for an element. The images are drawn on successive stacking context layers, with the first specified being drawn as if it is the closest to the user. The borders of the element are then drawn on top of them, and the <code>background-color</code>\n is drawn beneath them."
+description: "The<code> background-image </code>CSS property sets the background images for an element. The images are drawn on successive stacking context layers, with the first specified being drawn as if it is the closest to the user. The borders of the element are then drawn on top of them, and the <code>background-color</code> is drawn beneath them."
 javascript_property_name: backgroundImage
-related:
+related: 
   - background

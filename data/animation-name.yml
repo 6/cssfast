@@ -1,6 +1,5 @@
 name: "animation-name"
-description_plain: "The animation-name CSS property specifies a list of animations that should be applied to the selected element. Each name indicates a @keyframes at-rule that defines the property values for the animation sequence."
-description_html: "The <code>animation-name</code> CSS property specifies a list of animations that should be applied to the selected element. Each name indicates a <code>@keyframes</code>\n at-rule that defines the property values for the animation sequence."
+description: "The <code>animation-name</code> CSS property specifies a list of animations that should be applied to the selected element. Each name indicates a <code>@keyframes</code> at-rule that defines the property values for the animation sequence."
 javascript_property_name: animationName
-related:
+related: 
   - animation

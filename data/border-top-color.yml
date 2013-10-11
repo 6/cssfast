@@ -1,4 +1,3 @@
 name: "border-top-color"
-description_plain: "The border-top-color CSS property sets the color of the top border of an element. Note that in many cases the shorthand CSS properties&nbsp; border-color or border-top are more convenient and preferable."
-description_html: "The<code> border-top-color </code>CSS property sets the color of the top border of an element. Note that in many cases the shorthand CSS properties&nbsp; <code>border-color</code>\n or <code>border-top</code>\n are more convenient and preferable."
+description: "The<code> border-top-color </code>CSS property sets the color of the top border of an element. Note that in many cases the shorthand CSS properties&nbsp; <code>border-color</code> or <code>border-top</code> are more convenient and preferable."
 javascript_property_name: borderTopColor

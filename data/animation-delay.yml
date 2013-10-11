@@ -1,6 +1,5 @@
 name: "animation-delay"
-description_plain: "The animation-delay CSS property specifies when the animation should start. This lets the animation sequence begin some time after it's applied to an element."
-description_html: "The <code>animation-delay</code> CSS property specifies when the animation should start. This lets the animation sequence begin some time after it's applied to an element."
+description: "The <code>animation-delay</code> CSS property specifies when the animation should start. This lets the animation sequence begin some time after it's applied to an element."
 javascript_property_name: animationDelay
-related:
+related: 
   - animation

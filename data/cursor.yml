@@ -1,4 +1,3 @@
 name: cursor
-description_plain: The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.
-description_html: "The<code> cursor </code>CSS property specifies the mouse cursor displayed when the mouse pointer is over an element."
+description: "The<code> cursor </code>CSS property specifies the mouse cursor displayed when the mouse pointer is over an element."
 javascript_property_name: cursor

@@ -1,6 +1,5 @@
 name: "background-inline-policy"
-description_plain: ""
-description_html: ""
+description: ""
 javascript_property_name: backgroundInlinePolicy
-related:
+related: 
   - background

@@ -1,4 +1,3 @@
 name: "page-break-before"
-description_plain: "The page-break-before CSS property adjusts page breaks <em>before</em> the current element."
-description_html: "The <code>page-break-before</code> CSS property adjusts page breaks <em>before</em> the current element."
+description: "The <code>page-break-before</code> CSS property adjusts page breaks <em>before</em> the current element."
 javascript_property_name: pageBreakBefore

@@ -1,4 +1,3 @@
 name: "table-layout"
-description_plain: "The table-layout CSS property defines the algorithm to be used to layout the table cells, rows, and columns."
-description_html: "The <code>table-layout</code> CSS property defines the algorithm to be used to layout the table cells, rows, and columns."
+description: "The <code>table-layout</code> CSS property defines the algorithm to be used to layout the table cells, rows, and columns."
 javascript_property_name: tableLayout

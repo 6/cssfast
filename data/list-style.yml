@@ -1,4 +1,3 @@
 name: "list-style"
-description_plain: "The list-style CSS property is a shorthand property for setting list-style-type, list-style-image and list-style-position."
-description_html: "The<code> list-style </code>CSS property is a shorthand property for setting <code>list-style-type</code>\n, <code>list-style-image</code>\n and <code>list-style-position</code>\n."
+description: "The<code> list-style </code>CSS property is a shorthand property for setting <code>list-style-type</code>, <code>list-style-image</code> and <code>list-style-position</code>."
 javascript_property_name: listStyle

@@ -1,4 +1,3 @@
 name: clip
-description_plain: "The clip CSS property defines what portion of an element is visible. The clip property applies only to elements with position:absolute."
-description_html: "The <code>clip</code> CSS property defines what portion of an element is visible. The <code>clip</code> property applies only to elements with <code>position:absolute</code>\n."
+description: "The <code>clip</code> CSS property defines what portion of an element is visible. The <code>clip</code> property applies only to elements with <code>position:absolute</code>."
 javascript_property_name: clip

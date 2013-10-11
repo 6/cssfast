@@ -1,4 +1,3 @@
 name: "word-spacing"
-description_plain: "The word-spacing CSS property specifies spacing behavior between tags and words."
-description_html: "The<code> word-spacing </code>CSS property specifies spacing behavior between tags and words."
+description: "The<code> word-spacing </code>CSS property specifies spacing behavior between tags and words."
 javascript_property_name: wordSpacing

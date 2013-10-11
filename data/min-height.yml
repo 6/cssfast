@@ -1,4 +1,3 @@
 name: "min-height"
-description_plain: "The min-height CSS property is used to set the minimum height of a given element. It prevents the used value of the height property from becoming smaller than the value specified for min-height."
-description_html: "The<code> min-height </code>CSS property is used to set the minimum height of a given element. It prevents the used value of the <code>height</code>\n property from becoming smaller than the value specified for<code> min-height</code>."
+description: "The<code> min-height </code>CSS property is used to set the minimum height of a given element. It prevents the used value of the <code>height</code> property from becoming smaller than the value specified for<code> min-height</code>."
 javascript_property_name: minHeight

@@ -1,4 +1,3 @@
 name: bottom
-description_plain: "The bottom CSS property participates in specifying the position of <em>positioned elements</em>."
-description_html: "The <code>bottom</code> CSS property participates in specifying the position of <em>positioned elements</em>."
+description: "The <code>bottom</code> CSS property participates in specifying the position of <em>positioned elements</em>."
 javascript_property_name: bottom

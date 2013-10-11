@@ -1,4 +1,3 @@
 name: overflow
-description_plain: "The overflow CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element."
-description_html: "The<code> overflow </code>CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element."
+description: "The<code> overflow </code>CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element."
 javascript_property_name: overflow

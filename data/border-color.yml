@@ -1,4 +1,3 @@
 name: "border-color"
-description_plain: "The border-color CSS property is a shorthand for setting the color of the four sides of an element's border: border-top-color, border-right-color, border-bottom-color, border-left-color"
-description_html: "The<code> border-color </code>CSS property is a shorthand for setting the color of the four sides of an element's border: <code>border-top-color</code>\n, <code>border-right-color</code>\n, <code>border-bottom-color</code>\n, <code>border-left-color</code>\n"
+description: "The<code> border-color </code>CSS property is a shorthand for setting the color of the four sides of an element's border: <code>border-top-color</code>, <code>border-right-color</code>, <code>border-bottom-color</code>, <code>border-left-color</code>"
 javascript_property_name: borderColor

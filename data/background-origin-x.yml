@@ -1,8 +1,7 @@
 name: "background-origin-x"
-description_plain: ""
-description_html: ""
+description: ""
 javascript_property_name: backgroundOriginX
-related:
+related: 
   - background
-  - background-origin
-  - background-origin-y
+  - "background-origin"
+  - "background-origin-y"

@@ -1,6 +1,5 @@
 name: "background-composite"
-description_plain: ""
-description_html: ""
+description: ""
 javascript_property_name: backgroundComposite
-related:
+related: 
   - background

@@ -1,4 +1,3 @@
 name: "border-right"
-description_plain: "The border-right CSS property is a shorthand that sets the values of border-right-color, border-right-style, and border-right-width. These properties describe the right border of elements."
-description_html: "The <code>border-right</code> CSS property is a shorthand that sets the values of <code>border-right-color</code>\n, <code>border-right-style</code>\n, and <code>border-right-width</code>\n. These properties describe the right border of elements."
+description: "The <code>border-right</code> CSS property is a shorthand that sets the values of <code>border-right-color</code>, <code>border-right-style</code>, and <code>border-right-width</code>. These properties describe the right border of elements."
 javascript_property_name: borderRight
