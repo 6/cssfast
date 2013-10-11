@@ -59,6 +59,7 @@ module.exports = (grunt) ->
       ---\n#{yaml.dump(pageData)}---
       <h1 class='property-title'>#{property}</h1>
       <p class='property-description'>#{description}</p>
+      <div class='edit-link-container'>[<a href='https://github.com/6/cssfast/blob/master/data/#{property}.yml'>Edit on GitHub</a>]</div>
       """
       if data.related?.length > 0
         html += "<h2 class='section-header'>Related properties</h2><ul class='related-properties'>"
