@@ -2,3 +2,7 @@ name: "background-repeat-y"
 description_plain: ""
 description_html: ""
 javascript_property_name: backgroundRepeatY
+related:
+  - background
+  - background-repeat
+  - background-repeat-x

@@ -2,3 +2,5 @@ name: "background-size"
 description_plain: "The background-size CSS property specifies the size of the background images."
 description_html: "The<code> background-size </code>CSS property specifies the size of the background images."
 javascript_property_name: backgroundSize
+related:
+  - background

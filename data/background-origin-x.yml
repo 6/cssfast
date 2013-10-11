@@ -2,3 +2,7 @@ name: "background-origin-x"
 description_plain: ""
 description_html: ""
 javascript_property_name: backgroundOriginX
+related:
+  - background
+  - background-origin
+  - background-origin-y

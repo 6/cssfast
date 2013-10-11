@@ -2,3 +2,5 @@ name: "animation-direction"
 description_plain: "The animation-direction CSS property indicates whether the animation should play in reverse on alternate cycles."
 description_html: "The <code>animation-direction</code> CSS property indicates whether the animation should play in reverse on alternate cycles."
 javascript_property_name: animationDirection
+related:
+  - animation

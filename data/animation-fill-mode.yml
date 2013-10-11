@@ -2,3 +2,5 @@ name: "animation-fill-mode"
 description_plain: ""
 description_html: ""
 javascript_property_name: animationFillMode
+related:
+  - animation
