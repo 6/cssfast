@@ -60,6 +60,12 @@ module.exports = (grunt) ->
       <h1 class='property-title'>#{property}</h1>
       <p class='property-description'>#{description}</p>
       """
+      if data.related?.length > 0
+        html += "<h2 class='section-header'>Related properties</h2><ul class='related-properties'>"
+        for related in data.related
+          html += "<li><a href='/#{related}/'>#{related}</a></li>"
+        html += "</ul>"
+
       fs.writeFileSync("source/#{property}.erb", html, 'utf-8', {flags: 'w+'})
 
   grunt.registerTask 'removeGeneratedHTML', ->
