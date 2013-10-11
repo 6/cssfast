@@ -1,4 +1,5 @@
 .content {
+  position: relative;
   background-color: white;
   padding: 20px 28px;
   .property-title {
@@ -8,5 +9,16 @@
   }
   .section-header {
     font-size: 1.4em;
+  }
+  .edit-link-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    top: 16px;
+    right: 16px;
+    a {
+      padding: 0 2px;
+    }
   }
 }
