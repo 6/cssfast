@@ -60,7 +60,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :minify_html
-  set :trailing_slash, false
 end
 
 activate :deploy do |deploy|
