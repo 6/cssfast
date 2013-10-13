@@ -25,6 +25,7 @@
 # end
 
 page "/sitemap.xml", :layout => false
+page "/404.html", :directory_index => false
 
 # Proxy pages (http://middlemanapp.com/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
