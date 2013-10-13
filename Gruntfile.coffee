@@ -57,7 +57,7 @@ module.exports = (grunt) ->
       ---\n#{yaml.dump(pageData)}---
       <h1 class='property-title'>#{property}</h1>
       <p class='property-description'>#{data.description}</p>
-      <div class='edit-link-container'>[<a href='https://github.com/6/cssfast/blob/master/data/#{property}.yml'>Edit on GitHub</a>]</div>
+      <div class='edit-link-container hidden-for-mobile'>[<a href='https://github.com/6/cssfast/blob/master/data/#{property}.yml'>Edit on GitHub</a>]</div>
       """
       if data.syntax?
         html += "<h2 class='section-header'>Syntax</h2>"
