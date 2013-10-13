@@ -1,6 +1,7 @@
 name: accelerator
 description: "The <code>accelerator</code> property is an Internet Explorer-specific property that is used to indicate a keyboard shortcut."
 javascript_property_name: accelerator
+syntax: "accelerator: true|false;"
 references:
   -
     title: Internet Explorer Dev Center

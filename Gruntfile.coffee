@@ -59,6 +59,9 @@ module.exports = (grunt) ->
       <p class='property-description'>#{data.description}</p>
       <div class='edit-link-container'>[<a href='https://github.com/6/cssfast/blob/master/data/#{property}.yml'>Edit on GitHub</a>]</div>
       """
+      if data.syntax?
+        html += "<h2 class='section-header'>Syntax</h2>"
+        html += "<pre class='syntax'><code>#{data.syntax}</code></pre>"
       if data.related?.length > 0
         html += "<h2 class='section-header'>Related properties</h2><ul class='related-properties'>"
         for related in data.related
