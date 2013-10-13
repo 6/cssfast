@@ -65,6 +65,12 @@ module.exports = (grunt) ->
           html += "<li><a href='/#{related}/'>#{related}</a></li>"
         html += "</ul>"
 
+      if data.references?.length > 0
+        html += "<h2 class='section-header'>References</h2><ul class='references'>"
+        for reference in data.references
+          html += "<li><a href='#{reference.url}' rel='nofollow'>#{reference.title}</a>"
+        html += "</ul>"
+
       fs.writeFileSync("source/#{property}.erb", html+"\n", 'utf-8', {flags: 'w+'})
 
   grunt.registerTask 'removeGeneratedHTML', ->
