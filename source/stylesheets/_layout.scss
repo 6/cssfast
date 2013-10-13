@@ -1,8 +1,12 @@
 $nav-width: 260px;
 $nav-padding-x: 20px;
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  background: $very-light-gray;
   color: $very-dark-gray;
   font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,Helvetica,sans-serif;
 }
@@ -21,13 +25,15 @@ a {
 
 .nav {
   float: left;
+  background: $very-light-gray;
   width: $nav-width - ($nav-padding-x * 2);
   padding: 0 $nav-padding-x;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 .content {
   margin-left: $nav-width;
-  height: 1000px; // temporary
 }
 
 .logo {
@@ -91,6 +97,8 @@ input[name=search] {
   .nav {
     float: none;
     width: auto;
+    height: auto;
+    overflow: auto;
     text-align: center;
     input[name=search] {
       width: 88%;
