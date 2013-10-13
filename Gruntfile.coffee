@@ -62,6 +62,15 @@ module.exports = (grunt) ->
       if data.syntax?
         html += "<h2 class='section-header'>Syntax</h2>"
         html += "<pre class='syntax'><code>#{data.syntax}</code></pre>"
+        if data.values?.length > 0
+          html += """<table class='values'><thead><tr>
+            <th>Value</th><th>Description</th>
+          </tr></thead><tbody>"""
+          for value in data.values
+            html += "<tr><td>#{value.value}</td><td>"
+            html += "(Default) " if value.default
+            html += value.description + "</td></tr>"
+          html += "</tbody></table>"
       if data.related?.length > 0
         html += "<h2 class='section-header'>Related properties</h2><ul class='related-properties'>"
         for related in data.related
