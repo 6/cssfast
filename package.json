@@ -8,6 +8,7 @@
     "glob": "~3.2.6",
     "js-yaml": "~2.1.0",
     "grunt": "0.4.x",
+    "haml-coffee": "1.13.X",
     "underscore": "~1.5.0",
     "coffee-script": "~1.6.3"
   }

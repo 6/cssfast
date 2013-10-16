@@ -2,6 +2,7 @@ fs = require('fs')
 glob = require('glob')
 yaml = require('js-yaml')
 _ = require('underscore')
+haml = require('haml-coffee')
 
 module.exports = (grunt) ->
   # Add a top-level safety wrapper around JS to prevent context/scope leakage
@@ -52,38 +53,10 @@ module.exports = (grunt) ->
         description: removeHtmlTags('a', removeHtmlTags('code', data.description))
       }
 
-      # TODO - extract this into an external template file
-      html = """
-      ---\n#{yaml.dump(pageData)}---
-      <h1 class='property-title'>#{property}</h1>
-      <p class='property-description'>#{data.description}</p>
-      <div class='edit-link-container hidden-for-mobile'>[<a href='https://github.com/6/cssfast/blob/master/data/#{property}.yml'>Edit on GitHub</a>]</div>
-      """
-      if data.syntax?
-        html += "<h2 class='section-header'>Syntax</h2>"
-        html += "<pre class='syntax'><code>#{data.syntax}</code></pre>"
-        if data.values?.length > 0
-          html += """<table class='values'><thead><tr>
-            <th>Value</th><th>Description</th>
-          </tr></thead><tbody>"""
-          for value in data.values
-            html += "<tr><td>#{value.value}</td><td>"
-            html += "(Default) " if value.default
-            html += value.description + "</td></tr>"
-          html += "</tbody></table>"
-      if data.related?.length > 0
-        html += "<h2 class='section-header'>Related properties</h2><ul class='related-properties'>"
-        for related in data.related
-          html += "<li><a href='/#{related}/'>#{related}</a></li>"
-        html += "</ul>"
-
-      if data.references?.length > 0
-        html += "<h2 class='section-header'>References</h2><ul class='references'>"
-        for reference in data.references
-          html += "<li><a href='#{reference.url}' rel='nofollow'>#{reference.title}</a>"
-        html += "</ul>"
-
-      fs.writeFileSync("source/#{property}.erb", html+"\n", 'utf-8', {flags: 'w+'})
+      pageYaml = "---\n#{yaml.dump(pageData)}---\n"
+      template = haml.compile(grunt.file.read("source/_content.haml"), escapeAttributes: false)
+      editLink = "https://github.com/6/cssfast/blob/master/data/#{property}.yml"
+      fs.writeFileSync("source/#{property}.erb", pageYaml + template({data: data, editLink: editLink}) + "\n", 'utf-8', {flags: 'w+'})
 
   grunt.registerTask 'removeGeneratedHTML', ->
     for path in glob.sync('source/*.erb')
