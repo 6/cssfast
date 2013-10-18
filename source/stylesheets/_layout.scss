@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: blue;
+  color: $blue;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -41,11 +41,11 @@ a {
   margin: 12px 0;
   a {
     text-decoration: none;
-    color: $gray;
+    color: $blue;
     font-weight: bold;
     font-size: 36px;
     .site-name-fast {
-      color: $dark-gray;
+      color: $lighter-blue;
     }
   }
 }
